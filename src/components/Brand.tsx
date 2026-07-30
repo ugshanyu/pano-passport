@@ -11,13 +11,13 @@ export function Brand({ compact = false, inverted = false }: BrandProps) {
       className={`brand ${compact ? 'brand--compact' : ''} ${
         inverted ? 'brand--inverted' : ''
       }`}
-      aria-label="WorldGuessr"
+      aria-label="PanoPassport"
     >
       <span className="brand__mark" aria-hidden="true">
         <Earth size={compact ? 18 : 23} strokeWidth={2.4} />
       </span>
       <span>
-        World<span>Guessr</span>
+        Pano<span>Passport</span>
       </span>
     </div>
   )

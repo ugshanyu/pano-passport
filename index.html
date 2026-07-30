@@ -8,17 +8,20 @@
       name="description"
       content="Explore real open-license 360° panoramas and guess the country. Free, no sign-up, and no paid Maps API."
     />
-    <meta property="og:title" content="WorldGuessr — Spin the view. Guess the country." />
+    <meta property="og:title" content="PanoPassport — Spin the view. Guess the country." />
     <meta
       property="og:description"
       content="A free five-round country game with real 360° panoramas from Wikimedia Commons."
     />
     <meta property="og:image" content="/og.jpg" />
     <meta property="og:type" content="website" />
-    <title>WorldGuessr — Free 360° Country Game</title>
+    <title>PanoPassport — Free 360° Country Game</title>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <div class="boot-state">Opening PanoPassport…</div>
+    </div>
+    <script src="https://usions.com/usion-sdk.js"></script>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

@@ -4,6 +4,7 @@
 @import './styles/game.css';
 @import './styles/game-responsive.css';
 @import './styles/results.css';
+@import './styles/leaderboard.css';
 
 .brand {
   display: inline-flex;

@@ -1,4 +1,4 @@
-# WorldGuessr (working title)
+# PanoPassport
 
 A free five-round geography game built around real, interactive 360° panoramas.
 Look around, read the visual clues, and choose the country.
@@ -9,7 +9,8 @@ Look around, read the visual clues, and choose the country.
 - Full and partial equirectangular 360° panorama support
 - Five randomized rounds with country-based scoring
 - Desktop, phone, keyboard, touch, zoom, and fullscreen support
-- Local personal-best storage with no account or backend
+- Local personal-best storage when played outside Usion
+- Usion friends and worldwide leaderboards when opened inside the host app
 - Visible creator, source, and reuse-license attribution on every round
 - Loading, rendering-error, and static-preview fallbacks
 
@@ -61,3 +62,6 @@ must remain visible in both gameplay and the catalog.
 
 The production build is the `dist` folder. Vercel can deploy this Vite project
 without server functions or environment variables.
+
+Inside Usion, the game waits for the official SDK host handshake, starts the
+first round immediately, and submits only completed five-round scores.

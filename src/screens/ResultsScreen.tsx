@@ -1,6 +1,7 @@
 import { Check, Copy, RotateCcw, Share2, Trophy, X } from 'lucide-react'
 import { useState } from 'react'
 import { Brand } from '../components/Brand'
+import { Leaderboard } from '../components/Leaderboard'
 import { MAX_GAME_SCORE, previewUrl } from '../lib/game'
 import type { RoundResult } from '../types'
 
@@ -8,6 +9,8 @@ type ResultsScreenProps = {
   results: RoundResult[]
   bestScore: number
   isNewBest: boolean
+  embedded: boolean
+  onBestScore: (score: number) => void
   onPlayAgain: () => void
   onHome: () => void
 }
@@ -23,6 +26,8 @@ export function ResultsScreen({
   results,
   bestScore,
   isNewBest,
+  embedded,
+  onBestScore,
   onPlayAgain,
   onHome,
 }: ResultsScreenProps) {
@@ -33,9 +38,9 @@ export function ResultsScreen({
   const [title, subtitle] = resultMessage(total)
 
   const share = async () => {
-    const text = `I identified ${correctCount}/5 countries in WorldGuessr’s 360° challenge 🌍`
+    const text = `I identified ${correctCount}/5 countries in PanoPassport’s 360° challenge 🌍`
     if (canShare) {
-      await navigator.share({ title: 'WorldGuessr', text, url: window.location.origin })
+      await navigator.share({ title: 'PanoPassport', text, url: window.location.origin })
       return
     }
     await navigator.clipboard.writeText(`${text} ${window.location.origin}`)
@@ -46,9 +51,13 @@ export function ResultsScreen({
   return (
     <main className="results-screen">
       <header className="results-nav">
-        <button type="button" className="brand-button" onClick={onHome}>
+        {embedded ? (
           <Brand />
-        </button>
+        ) : (
+          <button type="button" className="brand-button" onClick={onHome}>
+            <Brand />
+          </button>
+        )}
         <span>Trip complete</span>
       </header>
 
@@ -96,9 +105,19 @@ export function ResultsScreen({
         ))}
       </section>
 
-      <button type="button" className="text-button results-home" onClick={onHome}>
-        Back to home
-      </button>
+      {embedded && (
+        <Leaderboard
+          score={total}
+          correct={correctCount}
+          onBestScore={onBestScore}
+        />
+      )}
+
+      {!embedded && (
+        <button type="button" className="text-button results-home" onClick={onHome}>
+          Back to home
+        </button>
+      )}
     </main>
   )
 }

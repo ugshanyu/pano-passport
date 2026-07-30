@@ -1,24 +1,39 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import './App.css'
 import roundsData from './data/rounds.json'
 import { scoreForCountry, selectRounds } from './lib/game'
+import { getUsionBestScore } from './lib/usion'
 import { GameScreen } from './screens/GameScreen'
 import { HomeScreen } from './screens/HomeScreen'
 import { ResultsScreen } from './screens/ResultsScreen'
 import type { Round, RoundResult } from './types'
 
 type Screen = 'home' | 'game' | 'results'
-const BEST_SCORE_KEY = 'worldguessr-best-score'
+const BEST_SCORE_KEY = 'pano-passport-best-score'
 const rounds = roundsData as Round[]
 
 function storedBestScore() {
-  const value = Number(window.localStorage.getItem(BEST_SCORE_KEY))
-  return Number.isFinite(value) ? value : 0
+  try {
+    const value = Number(window.localStorage.getItem(BEST_SCORE_KEY))
+    return Number.isFinite(value) ? value : 0
+  } catch {
+    return 0
+  }
 }
 
-function App() {
-  const [screen, setScreen] = useState<Screen>('home')
-  const [gameRounds, setGameRounds] = useState<Round[]>([])
+function saveBestScore(score: number) {
+  try {
+    window.localStorage.setItem(BEST_SCORE_KEY, String(score))
+  } catch {
+    // Usion still preserves the record if local storage is unavailable.
+  }
+}
+
+function App({ embedded = false }: { embedded?: boolean }) {
+  const [screen, setScreen] = useState<Screen>(embedded ? 'game' : 'home')
+  const [gameRounds, setGameRounds] = useState<Round[]>(
+    embedded ? () => selectRounds(rounds) : [],
+  )
   const [roundIndex, setRoundIndex] = useState(0)
   const [results, setResults] = useState<RoundResult[]>([])
   const [currentResult, setCurrentResult] = useState<RoundResult | null>(null)
@@ -29,6 +44,29 @@ function App() {
     () => results.reduce((sum, result) => sum + result.points, 0),
     [results],
   )
+
+  useEffect(() => {
+    if (!embedded) return
+    void getUsionBestScore()
+      .then((usionBest) => {
+        setBestScore((current) => {
+          const next = Math.max(current, usionBest)
+          if (next > current) saveBestScore(next)
+          return next
+        })
+      })
+      .catch(() => {
+        // Record loading must never delay play.
+      })
+  }, [embedded])
+
+  const updateBestScore = (newScore: number) => {
+    setBestScore((current) => {
+      const next = Math.max(current, newScore)
+      if (next > current) saveBestScore(next)
+      return next
+    })
+  }
 
   const startGame = () => {
     setGameRounds(selectRounds(rounds))
@@ -65,7 +103,7 @@ function App() {
     const newBest = finalScore > bestScore
     if (newBest) {
       setBestScore(finalScore)
-      window.localStorage.setItem(BEST_SCORE_KEY, String(finalScore))
+      saveBestScore(finalScore)
     }
     setIsNewBest(newBest)
     setScreen('results')
@@ -89,6 +127,8 @@ function App() {
         results={results}
         bestScore={bestScore}
         isNewBest={isNewBest}
+        embedded={embedded}
+        onBestScore={updateBestScore}
         onPlayAgain={startGame}
         onHome={() => setScreen('home')}
       />
