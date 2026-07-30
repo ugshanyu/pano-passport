@@ -68,3 +68,6 @@ first round immediately, and submits only completed five-round scores.
 
 - Play: https://pano-passport.vercel.app
 - Usion: https://usions.com/chat/iframe/pano-passport
+
+The square Usion catalog artwork is `public/game-icon.png`; the wider social
+sharing card remains `public/og.jpg`.
