@@ -60,6 +60,12 @@
     font-size: 16px;
   }
 
+  .round-selector,
+  .multiplayer-status {
+    margin-inline: auto;
+    text-align: left;
+  }
+
   .hero-cta {
     width: calc(100% - 12px);
     margin-right: 6px;

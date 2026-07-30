@@ -86,6 +86,19 @@
   box-shadow: 7px 7px 0 var(--ink);
 }
 
+.primary-button:disabled,
+.secondary-button:disabled {
+  cursor: not-allowed;
+  filter: grayscale(0.35);
+  opacity: 0.58;
+  transform: none;
+}
+
+.primary-button:disabled:hover {
+  box-shadow: 5px 5px 0 var(--ink);
+  transform: none;
+}
+
 .primary-button:active,
 .guess-button:not(:disabled):active {
   transform: translate(3px, 3px);

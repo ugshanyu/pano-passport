@@ -42,3 +42,13 @@ export type RoundResult = {
   distanceKm: number
   points: number
 }
+
+export type MultiplayerPlayer = {
+  id: string
+  name: string
+  avatar?: string | null
+}
+
+export type MultiplayerStanding = MultiplayerPlayer & {
+  score: number
+}

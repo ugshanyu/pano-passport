@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import {
+  maxGameScore,
   panoramaVerticalAngle,
   roundPreviewUrl,
   selectRounds,
@@ -25,6 +26,13 @@ describe('selectRounds', () => {
     const selected = selectRounds(rounds, 5, () => 0.4)
     expect(new Set(selected.map((round) => round.id)).size).toBe(5)
     expect(rounds.map((round) => round.id)).toEqual(['0', '1', '2', '3', '4', '5', '6', '7'])
+  })
+
+  it.each([5, 10, 15])('supports a %i-round trip', (count) => {
+    expect(selectRounds(rounds, count, () => 0.4)).toHaveLength(
+      Math.min(count, rounds.length),
+    )
+    expect(maxGameScore(count)).toBe(count * 1000)
   })
 })
 

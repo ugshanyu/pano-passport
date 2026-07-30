@@ -1,13 +1,16 @@
 # PanoPassport
 
-A free five-round geography game built around real, interactive 360° panoramas.
-Look around, read the visual clues, and choose the country.
+A free geography game built around real, interactive 360° panoramas. Look
+around, read the visual clues, and choose the country—solo or with friends in
+Usion.
 
 ## What is included
 
 - 200 curated outdoor locations across 73 countries
 - Full and partial equirectangular 360° panorama support
-- Five randomized rounds with four country choices and distance-based scoring
+- Selectable 5, 10, or 15-round trips
+- Usion multiplayer rooms for 2–8 players with shared panoramas and standings
+- Four country choices with distance-based scoring
 - Desktop, phone, keyboard, touch, zoom, and fullscreen support
 - Local personal-best storage when played outside Usion
 - Usion friends and worldwide leaderboards when opened inside the host app
@@ -76,8 +79,11 @@ remain visible in gameplay and in `ATTRIBUTIONS.md`.
 The production build is the `dist` folder. Vercel hosts it as a static Vite
 site with `VITE_MAPILLARY_ACCESS_TOKEN` configured for Production.
 
-Inside Usion, the game waits for the official SDK host handshake, starts the
-first round immediately, and submits only completed five-round scores.
+Inside Usion, the game registers its multiplayer handlers before joining a
+room. The host selects the trip length and starts one shared panorama set.
+Guesses use sequenced Usion actions, the host calculates every score, and
+reconnecting players recover from the latest checkpoint. Completed solo and
+multiplayer scores are submitted to Game Center.
 
 - Play: https://pano-passport.vercel.app
 - Usion: https://usions.com/chat/iframe/pano-passport

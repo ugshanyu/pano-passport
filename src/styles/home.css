@@ -103,8 +103,97 @@
   line-height: 1.6;
 }
 
+.round-selector {
+  width: min(390px, 100%);
+  margin-top: 26px;
+  padding: 0;
+  border: 0;
+}
+
+.round-selector legend {
+  margin-bottom: 9px;
+  color: #74766d;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.9px;
+  text-transform: uppercase;
+}
+
+.round-selector > div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.round-selector button {
+  display: flex;
+  min-height: 54px;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  border: 1.5px solid var(--ink);
+  border-radius: 12px;
+  color: var(--ink);
+  background: rgba(255, 255, 255, 0.72);
+  cursor: pointer;
+}
+
+.round-selector button.is-selected {
+  background: var(--lime);
+  box-shadow: 3px 3px 0 var(--ink);
+}
+
+.round-selector button:disabled {
+  cursor: default;
+}
+
+.round-selector strong {
+  font-family: 'Manrope', sans-serif;
+  font-size: 18px;
+}
+
+.round-selector span {
+  color: var(--muted);
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.multiplayer-status {
+  display: grid;
+  width: min(390px, 100%);
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 2px 9px;
+  margin-top: 15px;
+  color: #565a50;
+  font-size: 12px;
+}
+
+.multiplayer-status small {
+  grid-column: 2;
+  color: var(--muted);
+}
+
+.connection-dot {
+  width: 9px;
+  height: 9px;
+  grid-row: 1 / span 2;
+  border-radius: 50%;
+  background: #93978d;
+}
+
+.connection-dot--connected {
+  background: #6e941a;
+  box-shadow: 0 0 0 4px rgba(110, 148, 26, 0.15);
+}
+
+.connection-dot--connecting,
+.connection-dot--reconnecting {
+  background: #d3952f;
+}
+
 .hero-cta {
-  margin-top: 34px;
+  margin-top: 22px;
   min-width: 218px;
 }
 

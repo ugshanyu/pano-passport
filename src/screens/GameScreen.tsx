@@ -3,7 +3,7 @@ import { useEffect } from 'react'
 import { Brand } from '../components/Brand'
 import { CountryChoices } from '../components/CountryChoices'
 import { PanoramaViewer } from '../components/PanoramaViewer'
-import { MAX_ROUND_SCORE, roundPreviewUrl, ROUND_COUNT } from '../lib/game'
+import { MAX_ROUND_SCORE, roundPreviewUrl } from '../lib/game'
 import { formatDistance } from '../lib/geography'
 import type { CountryOption, Round, RoundResult } from '../types'
 
@@ -12,8 +12,14 @@ type GameScreenProps = {
   options: CountryOption[]
   nextRound?: Round
   roundIndex: number
+  totalRounds: number
   score: number
   result: RoundResult | null
+  waitingForReveal?: boolean
+  answeredPlayers?: number
+  totalPlayers?: number
+  canContinue?: boolean
+  continueLabel?: string
   onGuess: (countryCode: string, countryName: string) => void
   onContinue: () => void
 }
@@ -23,8 +29,14 @@ export function GameScreen({
   options,
   nextRound,
   roundIndex,
+  totalRounds,
   score,
   result,
+  waitingForReveal = false,
+  answeredPlayers = 0,
+  totalPlayers = 1,
+  canContinue = true,
+  continueLabel,
   onGuess,
   onContinue,
 }: GameScreenProps) {
@@ -34,7 +46,7 @@ export function GameScreen({
     image.src = roundPreviewUrl(nextRound)
   }, [nextRound])
 
-  const isLastRound = roundIndex === ROUND_COUNT - 1
+  const isLastRound = roundIndex === totalRounds - 1
 
   return (
     <main className={`game-screen ${result ? 'game-screen--revealed' : ''}`}>
@@ -45,9 +57,9 @@ export function GameScreen({
         <Brand compact inverted />
         <div
           className="round-progress"
-          aria-label={`Round ${roundIndex + 1} of ${ROUND_COUNT}`}
+          aria-label={`Round ${roundIndex + 1} of ${totalRounds}`}
         >
-          {Array.from({ length: ROUND_COUNT }, (_, index) => (
+          {Array.from({ length: totalRounds }, (_, index) => (
             <span
               className={index <= roundIndex ? 'round-progress__dot--active' : ''}
               key={index}
@@ -81,7 +93,18 @@ export function GameScreen({
         </a>
       </div>
 
-      {!result ? (
+      {!result && waitingForReveal ? (
+        <section className="guess-dock guess-dock--waiting" aria-live="polite">
+          <span className="waiting-spinner" aria-hidden="true" />
+          <div>
+            <strong>Answer locked in</strong>
+            <span>
+              {answeredPlayers}/{totalPlayers} explorers answered · Reveal starts
+              when everyone has guessed
+            </span>
+          </div>
+        </section>
+      ) : !result ? (
         <section className="guess-dock" aria-label="Submit your country guess">
           <div className="guess-dock__header">
             <strong>Choose a country</strong>
@@ -112,8 +135,14 @@ export function GameScreen({
             <strong>+{result.points.toLocaleString()}</strong>
             <small>of {MAX_ROUND_SCORE.toLocaleString()}</small>
           </div>
-          <button className="primary-button" type="button" onClick={onContinue}>
-            {isLastRound ? 'See final score' : 'Next panorama'}
+          <button
+            className="primary-button"
+            type="button"
+            disabled={!canContinue}
+            onClick={onContinue}
+          >
+            {continueLabel ??
+              (isLastRound ? 'See final score' : 'Next panorama')}
             <ArrowRight size={19} />
           </button>
         </section>

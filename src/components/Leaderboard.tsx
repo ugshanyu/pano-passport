@@ -8,6 +8,7 @@ import {
 type LeaderboardProps = {
   score: number
   correct: number
+  rounds: number
   onBestScore: (score: number) => void
 }
 
@@ -27,6 +28,7 @@ function initials(entry: LeaderboardEntry) {
 export function Leaderboard({
   score,
   correct,
+  rounds,
   onBestScore,
 }: LeaderboardProps) {
   const [board, setBoard] = useState<Board>('friends')
@@ -37,14 +39,14 @@ export function Leaderboard({
   const load = useCallback(async () => {
     setStatus('loading')
     try {
-      const result = await syncUsionLeaderboard(score, correct)
+      const result = await syncUsionLeaderboard(score, correct, rounds)
       setRecords({ friends: result.friends, worldwide: result.worldwide })
       onBestScore(result.best)
       setStatus('ready')
     } catch {
       setStatus('error')
     }
-  }, [correct, onBestScore, score])
+  }, [correct, onBestScore, rounds, score])
 
   useEffect(() => {
     if (runSynced.current) return

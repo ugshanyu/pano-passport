@@ -1,8 +1,13 @@
 import type { Round } from '../types'
 
-export const ROUND_COUNT = 5
+export const ROUND_OPTIONS = [5, 10, 15] as const
+export type RoundCount = (typeof ROUND_OPTIONS)[number]
+export const DEFAULT_ROUND_COUNT: RoundCount = 5
 export const MAX_ROUND_SCORE = 1000
-export const MAX_GAME_SCORE = ROUND_COUNT * MAX_ROUND_SCORE
+
+export function maxGameScore(roundCount: number) {
+  return roundCount * MAX_ROUND_SCORE
+}
 
 export function scoreForCountry(guessCode: string, answerCode: string) {
   return guessCode.toUpperCase() === answerCode.toUpperCase()
@@ -12,7 +17,7 @@ export function scoreForCountry(guessCode: string, answerCode: string) {
 
 export function selectRounds(
   rounds: Round[],
-  count = ROUND_COUNT,
+  count = DEFAULT_ROUND_COUNT,
   random: () => number = Math.random,
 ) {
   const shuffled = [...rounds]

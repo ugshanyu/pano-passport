@@ -2,24 +2,34 @@ import { Check, Copy, RotateCcw, Share2, Trophy, X } from 'lucide-react'
 import { useState } from 'react'
 import { Brand } from '../components/Brand'
 import { Leaderboard } from '../components/Leaderboard'
-import { MAX_GAME_SCORE, roundPreviewUrl } from '../lib/game'
+import { MultiplayerStandings } from '../components/MultiplayerStandings'
+import { maxGameScore, roundPreviewUrl } from '../lib/game'
 import { formatDistance } from '../lib/geography'
-import type { RoundResult } from '../types'
+import type { MultiplayerStanding, RoundResult } from '../types'
 
 type ResultsScreenProps = {
   results: RoundResult[]
   bestScore: number
   isNewBest: boolean
   embedded: boolean
+  multiplayer?: {
+    myId: string | null
+    standings: MultiplayerStanding[]
+    isHost: boolean
+  }
+  canPlayAgain?: boolean
+  playAgainLabel?: string
+  canChangeRounds?: boolean
   onBestScore: (score: number) => void
   onPlayAgain: () => void
   onHome: () => void
 }
 
-function resultMessage(score: number) {
-  if (score === MAX_GAME_SCORE) return ['Perfect passport!', 'Five countries. Five correct answers.']
-  if (score >= 4000) return ['World class!', 'You read these places like a local.']
-  if (score >= 2500) return ['Globe-trotter!', 'Your country radar is warming up.']
+function resultMessage(score: number, roundCount: number) {
+  const ratio = score / maxGameScore(roundCount)
+  if (ratio === 1) return ['Perfect passport!', `${roundCount} countries. Every answer exact.`]
+  if (ratio >= 0.8) return ['World class!', 'You read these places like a local.']
+  if (ratio >= 0.5) return ['Globe-trotter!', 'Your country radar is warming up.']
   return ['Adventure started!', 'Spin the planet and take another trip.']
 }
 
@@ -28,6 +38,10 @@ export function ResultsScreen({
   bestScore,
   isNewBest,
   embedded,
+  multiplayer,
+  canPlayAgain = true,
+  playAgainLabel = 'Play again',
+  canChangeRounds = !embedded,
   onBestScore,
   onPlayAgain,
   onHome,
@@ -35,11 +49,12 @@ export function ResultsScreen({
   const [copied, setCopied] = useState(false)
   const canShare = typeof navigator.share === 'function'
   const total = results.reduce((sum, result) => sum + result.points, 0)
+  const roundCount = results.length
   const correctCount = results.filter(({ correct }) => correct).length
-  const [title, subtitle] = resultMessage(total)
+  const [title, subtitle] = resultMessage(total, roundCount)
 
   const share = async () => {
-    const text = `I identified ${correctCount}/5 countries in PanoPassport’s 360° challenge 🌍`
+    const text = `I identified ${correctCount}/${roundCount} countries in PanoPassport’s 360° challenge 🌍`
     if (canShare) {
       await navigator.share({ title: 'PanoPassport', text, url: window.location.origin })
       return
@@ -63,18 +78,26 @@ export function ResultsScreen({
       </header>
 
       <section className="results-hero">
-        <div className="score-orbit" aria-label={`${correctCount} correct out of 5`}>
+        <div
+          className="score-orbit"
+          aria-label={`${correctCount} correct out of ${roundCount}`}
+        >
           <Trophy size={28} />
-          <strong>{correctCount}/5</strong>
+          <strong>{correctCount}/{roundCount}</strong>
           <span>{total.toLocaleString()} points</span>
         </div>
         {isNewBest && <p className="new-best">New personal best</p>}
         <h1>{title}</h1>
         <p>{subtitle}</p>
         <div className="results-actions">
-          <button className="primary-button" type="button" onClick={onPlayAgain}>
+          <button
+            className="primary-button"
+            type="button"
+            disabled={!canPlayAgain}
+            onClick={onPlayAgain}
+          >
             <RotateCcw size={18} />
-            Play again
+            {playAgainLabel}
           </button>
           <button className="secondary-button" type="button" onClick={share}>
             {copied ? <Check size={18} /> : canShare ? <Share2 size={18} /> : <Copy size={18} />}
@@ -83,6 +106,13 @@ export function ResultsScreen({
         </div>
         <p className="best-line">Your best: {bestScore.toLocaleString()} points</p>
       </section>
+
+      {multiplayer && (
+        <MultiplayerStandings
+          standings={multiplayer.standings}
+          myId={multiplayer.myId}
+        />
+      )}
 
       <section className="round-recap" aria-label="Round results">
         {results.map((result, index) => (
@@ -112,13 +142,14 @@ export function ResultsScreen({
         <Leaderboard
           score={total}
           correct={correctCount}
+          rounds={roundCount}
           onBestScore={onBestScore}
         />
       )}
 
-      {!embedded && (
+      {canChangeRounds && (
         <button type="button" className="text-button results-home" onClick={onHome}>
-          Back to home
+          Change round count
         </button>
       )}
     </main>

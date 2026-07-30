@@ -1,12 +1,24 @@
 import { ArrowRight, Flag, Rotate3D, Search, Sparkles, Trophy } from 'lucide-react'
 import { Brand } from '../components/Brand'
-import { MAX_GAME_SCORE, roundPreviewUrl } from '../lib/game'
+import { RoundSelector } from '../components/RoundSelector'
+import { maxGameScore, roundPreviewUrl, type RoundCount } from '../lib/game'
 import type { Round } from '../types'
 
 type HomeScreenProps = {
   bestScore: number
   coverage: number
   previews: Round[]
+  roundCount: RoundCount
+  multiplayer?: {
+    enabled: boolean
+    isHost: boolean
+    canStart: boolean
+    connection: string
+    presentCount: number
+    expectedCount: number
+    error: string | null
+  }
+  onRoundCount: (roundCount: RoundCount) => void
   onStart: () => void
 }
 
@@ -14,8 +26,21 @@ export function HomeScreen({
   bestScore,
   coverage,
   previews,
+  roundCount,
+  multiplayer,
+  onRoundCount,
   onStart,
 }: HomeScreenProps) {
+  const isGuest = Boolean(multiplayer?.enabled && !multiplayer.isHost)
+  const startDisabled = Boolean(
+    multiplayer?.enabled && (!multiplayer.canStart || isGuest),
+  )
+  const startLabel = isGuest
+    ? 'Waiting for the host'
+    : multiplayer?.enabled
+      ? `Start ${roundCount}-round match`
+      : 'Start exploring'
+
   return (
     <main className="home-screen">
       <nav className="home-nav" aria-label="Main navigation">
@@ -35,7 +60,9 @@ export function HomeScreen({
         <div className="hero-copy">
           <p className="eyebrow">
             <Sparkles size={15} />
-            Five panoramas. One big world.
+            {multiplayer?.enabled
+              ? 'Usion multiplayer room'
+              : 'Real panoramas. One big world.'}
           </p>
           <h1>
             Spin the view.
@@ -44,14 +71,40 @@ export function HomeScreen({
           </h1>
           <p className="hero-copy__intro">
             Explore real 360° scenes, follow the visual clues, and name the
-            country. A perfect trip scores {MAX_GAME_SCORE.toLocaleString()}.
+            country. A perfect trip scores{' '}
+            {maxGameScore(roundCount).toLocaleString()}.
           </p>
-          <button className="primary-button hero-cta" type="button" onClick={onStart}>
-            Start exploring
+          <RoundSelector
+            value={roundCount}
+            disabled={isGuest}
+            onChange={onRoundCount}
+          />
+          {multiplayer?.enabled && (
+            <div className="multiplayer-status" aria-live="polite">
+              <span className={`connection-dot connection-dot--${multiplayer.connection}`} />
+              <strong>
+                {multiplayer.presentCount} explorer
+                {multiplayer.presentCount === 1 ? '' : 's'} connected
+              </strong>
+              {multiplayer.expectedCount > multiplayer.presentCount && (
+                <small>Waiting for the rest of the room</small>
+              )}
+              {multiplayer.error && <small>{multiplayer.error}</small>}
+            </div>
+          )}
+          <button
+            className="primary-button hero-cta"
+            type="button"
+            disabled={startDisabled}
+            onClick={onStart}
+          >
+            {startLabel}
             <ArrowRight size={20} />
           </button>
           <p className="hero-note">
-            Free forever · No sign-up · {coverage} verified open-license countries
+            {multiplayer?.enabled
+              ? 'The host chooses the trip · Everyone sees the same places'
+              : `Free forever · No sign-up · ${coverage} verified open-license countries`}
           </p>
         </div>
 
