@@ -1,12 +1,9 @@
-export type Round = {
+type RoundBase = {
   id: string
   city: string
   country: string
   countryCode: string
   landmark: string
-  panoramaUrl: string
-  imageWidth: number
-  imageHeight: number
   photographer: string
   license: string
   licenseUrl: string
@@ -14,6 +11,21 @@ export type Round = {
   initialYaw?: number
   initialPitch?: number
 }
+
+export type WikimediaRound = RoundBase & {
+  provider: 'wikimedia'
+  panoramaUrl: string
+  imageWidth: number
+  imageHeight: number
+}
+
+export type MapillaryRound = RoundBase & {
+  provider: 'mapillary'
+  mapillaryImageId: string
+  previewUrl: string
+}
+
+export type Round = WikimediaRound | MapillaryRound
 
 export type RoundResult = {
   round: Round

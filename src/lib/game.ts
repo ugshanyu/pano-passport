@@ -27,6 +27,7 @@ export function panoramaVerticalAngle(width: number, height: number) {
   return Math.min(180, (height / width) * 360)
 }
 
-export function previewUrl(panoramaUrl: string) {
-  return panoramaUrl.replace('/3840px-', '/960px-')
+export function roundPreviewUrl(round: Round) {
+  if (round.provider === 'mapillary') return round.previewUrl
+  return round.panoramaUrl.replace('/3840px-', '/960px-')
 }

@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react'
 import { Brand } from '../components/Brand'
 import { CountryPicker } from '../components/CountryPicker'
 import { PanoramaViewer } from '../components/PanoramaViewer'
-import { MAX_ROUND_SCORE, previewUrl, ROUND_COUNT } from '../lib/game'
+import { MAX_ROUND_SCORE, roundPreviewUrl, ROUND_COUNT } from '../lib/game'
 import type { Round, RoundResult } from '../types'
 
 type GameScreenProps = {
@@ -30,7 +30,7 @@ export function GameScreen({
   useEffect(() => {
     if (!nextRound) return
     const image = new Image()
-    image.src = previewUrl(nextRound.panoramaUrl)
+    image.src = roundPreviewUrl(nextRound)
   }, [nextRound])
 
   const isLastRound = roundIndex === ROUND_COUNT - 1

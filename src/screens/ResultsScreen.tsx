@@ -2,7 +2,7 @@ import { Check, Copy, RotateCcw, Share2, Trophy, X } from 'lucide-react'
 import { useState } from 'react'
 import { Brand } from '../components/Brand'
 import { Leaderboard } from '../components/Leaderboard'
-import { MAX_GAME_SCORE, previewUrl } from '../lib/game'
+import { MAX_GAME_SCORE, roundPreviewUrl } from '../lib/game'
 import type { RoundResult } from '../types'
 
 type ResultsScreenProps = {
@@ -87,7 +87,7 @@ export function ResultsScreen({
         {results.map((result, index) => (
           <article className="recap-card" key={result.round.id}>
             <div className="recap-card__image">
-              <img src={previewUrl(result.round.panoramaUrl)} alt="" />
+              <img src={roundPreviewUrl(result.round)} alt="" />
               <span>{index + 1}</span>
             </div>
             <div className="recap-card__body">

@@ -2,7 +2,7 @@ import { describe, expect, it } from 'vitest'
 import {
   MAX_ROUND_SCORE,
   panoramaVerticalAngle,
-  previewUrl,
+  roundPreviewUrl,
   scoreForCountry,
   selectRounds,
 } from './game'
@@ -37,10 +37,22 @@ describe('selectRounds', () => {
   })
 })
 
-describe('previewUrl', () => {
+describe('roundPreviewUrl', () => {
   it('requests a lighter Wikimedia preview', () => {
-    expect(previewUrl('https://upload.wikimedia.org/x/3840px-photo.jpg')).toBe(
-      'https://upload.wikimedia.org/x/960px-photo.jpg',
-    )
+    expect(
+      roundPreviewUrl({
+        provider: 'wikimedia',
+        panoramaUrl: 'https://upload.wikimedia.org/x/3840px-photo.jpg',
+      } as Round),
+    ).toBe('https://upload.wikimedia.org/x/960px-photo.jpg')
+  })
+
+  it('uses a Mapillary catalog preview', () => {
+    expect(
+      roundPreviewUrl({
+        provider: 'mapillary',
+        previewUrl: '/previews/mapillary/photo.jpg',
+      } as Round),
+    ).toBe('/previews/mapillary/photo.jpg')
   })
 })

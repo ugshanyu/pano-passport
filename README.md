@@ -5,7 +5,7 @@ Look around, read the visual clues, and choose the country.
 
 ## What is included
 
-- 14 verified countries across five continents
+- 200 curated outdoor locations across 65 countries
 - Full and partial equirectangular 360° panorama support
 - Five randomized rounds with country-based scoring
 - Desktop, phone, keyboard, touch, zoom, and fullscreen support
@@ -19,9 +19,12 @@ Look around, read the visual clues, and choose the country.
 The app does not use Google Maps, a Google Cloud billing account, or another
 billable map service.
 
-- [Pannellum](https://pannellum.org/) renders panoramas under the MIT License.
-- [Wikimedia Commons](https://commons.wikimedia.org/) hosts the imagery.
-- Each image is CC0, CC BY, or CC BY-SA and links to its original file page.
+- [Pannellum](https://pannellum.org/) renders Wikimedia panoramas under the MIT License.
+- [MapillaryJS](https://mapillary.github.io/mapillary-js/) renders Mapillary
+  panoramas under the MIT License.
+- [Wikimedia Commons](https://commons.wikimedia.org/) and
+  [Mapillary](https://www.mapillary.com/) provide the openly licensed imagery.
+- Each image is CC0, CC BY, or CC BY-SA and links to its original source.
 - [country-list](https://www.npmjs.com/package/country-list) supplies country names under MIT.
 - Vite builds a static site that can run on Vercel's free tier.
 
@@ -33,8 +36,12 @@ panorama and its license have been checked; it does not disguise flat photos as
 
 ```bash
 npm install
+export VITE_MAPILLARY_ACCESS_TOKEN="your read-only client token"
 npm run dev
 ```
+
+The token is a Mapillary client access token intended for browser use. Never
+place the Mapillary client secret in this project.
 
 ## Verify
 
@@ -44,24 +51,25 @@ npm run test
 npm run build
 ```
 
-## Add a panorama
+## Maintain the catalog
 
-Add one record to `src/data/rounds.json` with:
+The checked Wikimedia seed catalog lives in
+`scripts/catalog/wikimedia-rounds.json`. Mapillary discovery and selection use:
 
-- a stable Wikimedia thumbnail URL and source page
-- country code, country name, city, and landmark
-- original width and height
-- creator, reuse license, and license URL
-- optional initial yaw and pitch
+```bash
+npm run catalog:discover
+npm run catalog:alternatives
+npm run catalog:build
+```
 
-Confirm the image is a real 360° equirectangular or cylindrical panorama and
-that browser requests return an image with cross-origin access. Attribution
-must remain visible in both gameplay and the catalog.
+Every selected image must be a genuine outdoor panorama with valid location
+metadata. Review the generated previews before rebuilding. Attribution must
+remain visible in gameplay and in `ATTRIBUTIONS.md`.
 
 ## Deployment
 
-The production build is the `dist` folder. Vercel can deploy this Vite project
-without server functions or environment variables.
+The production build is the `dist` folder. Vercel hosts it as a static Vite
+site with `VITE_MAPILLARY_ACCESS_TOKEN` configured for Production.
 
 Inside Usion, the game waits for the official SDK host handshake, starts the
 first round immediately, and submits only completed five-round scores.

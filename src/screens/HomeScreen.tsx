@@ -1,6 +1,6 @@
 import { ArrowRight, Flag, Rotate3D, Search, Sparkles, Trophy } from 'lucide-react'
 import { Brand } from '../components/Brand'
-import { MAX_GAME_SCORE, previewUrl } from '../lib/game'
+import { MAX_GAME_SCORE, roundPreviewUrl } from '../lib/game'
 import type { Round } from '../types'
 
 type HomeScreenProps = {
@@ -61,7 +61,7 @@ export function HomeScreen({
               className={`postcard postcard--${['left', 'center', 'right'][index]}`}
               key={round.id}
             >
-              <img src={previewUrl(round.panoramaUrl)} alt="" />
+              <img src={roundPreviewUrl(round)} alt="" />
               <figcaption>
                 <Rotate3D size={14} />
                 A real 360° place
@@ -111,22 +111,34 @@ export function HomeScreen({
           <h2>Free means free—without a Maps bill.</h2>
         </div>
         <p>
-          The viewer is open-source Pannellum. Every panorama links to its
-          Wikimedia Commons creator and reuse license. Coverage grows only when
-          a genuine, reusable 360° image is verified.
+          Every panorama links to its creator and reuse license. The catalog
+          combines open Wikimedia photospheres with Mapillary street-level 360°
+          imagery—without enabling a paid Google Maps API.
         </p>
       </section>
 
       <footer className="home-footer">
         <Brand compact />
         <p>
-          360° imagery from{' '}
+          Open 360° imagery from{' '}
           <a href="https://commons.wikimedia.org/" target="_blank" rel="noreferrer">
             Wikimedia Commons
           </a>
-          {' · '}Viewer by{' '}
+          {' and '}
+          <a href="https://www.mapillary.com/" target="_blank" rel="noreferrer">
+            Mapillary
+          </a>
+          {' · '}Viewers by{' '}
           <a href="https://pannellum.org/" target="_blank" rel="noreferrer">
             Pannellum
+          </a>
+          {' and '}
+          <a
+            href="https://mapillary.github.io/mapillary-js/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            MapillaryJS
           </a>
         </p>
       </footer>
