@@ -1,13 +1,15 @@
-import { ArrowRight, CheckCircle2, Flag, Rotate3D, Trophy, XCircle } from 'lucide-react'
-import { useEffect, useState } from 'react'
+import { ArrowRight, CheckCircle2, Rotate3D, Trophy, XCircle } from 'lucide-react'
+import { useEffect } from 'react'
 import { Brand } from '../components/Brand'
-import { CountryPicker } from '../components/CountryPicker'
+import { CountryChoices } from '../components/CountryChoices'
 import { PanoramaViewer } from '../components/PanoramaViewer'
 import { MAX_ROUND_SCORE, roundPreviewUrl, ROUND_COUNT } from '../lib/game'
-import type { Round, RoundResult } from '../types'
+import { formatDistance } from '../lib/geography'
+import type { CountryOption, Round, RoundResult } from '../types'
 
 type GameScreenProps = {
   round: Round
+  options: CountryOption[]
   nextRound?: Round
   roundIndex: number
   score: number
@@ -18,6 +20,7 @@ type GameScreenProps = {
 
 export function GameScreen({
   round,
+  options,
   nextRound,
   roundIndex,
   score,
@@ -25,8 +28,6 @@ export function GameScreen({
   onGuess,
   onContinue,
 }: GameScreenProps) {
-  const [selection, setSelection] = useState({ code: '', name: '' })
-
   useEffect(() => {
     if (!nextRound) return
     const image = new Image()
@@ -64,7 +65,7 @@ export function GameScreen({
           <span>Round {roundIndex + 1}</span>
           <strong>Which country is this?</strong>
           <small>
-            <Rotate3D size={13} /> Explore the full 360° view
+            <Rotate3D size={13} /> Look around, then choose one of four
           </small>
         </div>
       )}
@@ -82,19 +83,11 @@ export function GameScreen({
 
       {!result ? (
         <section className="guess-dock" aria-label="Submit your country guess">
-          <CountryPicker
-            value={selection.code}
-            onChange={(code, name) => setSelection({ code, name })}
-          />
-          <button
-            className="guess-button"
-            type="button"
-            disabled={!selection.code}
-            onClick={() => onGuess(selection.code, selection.name)}
-          >
-            Lock in guess
-            <Flag size={17} />
-          </button>
+          <div className="guess-dock__header">
+            <strong>Choose a country</strong>
+            <span>Closer wrong answers earn more points</span>
+          </div>
+          <CountryChoices options={options} onChoose={onGuess} />
         </section>
       ) : (
         <section className="reveal-card" aria-live="polite">
@@ -102,10 +95,16 @@ export function GameScreen({
             {result.correct ? <CheckCircle2 /> : <XCircle />}
           </div>
           <div className="reveal-card__location">
-            <p>{result.correct ? 'Correct country!' : `You chose ${result.guessedCountry}`}</p>
+            <p>
+              {result.correct
+                ? 'Correct country!'
+                : `You chose ${result.guessedCountry} · ${formatDistance(result.distanceKm)}`}
+            </p>
             <h1>{round.landmark}</h1>
             <span>
-              {round.city}, {round.country}
+              {round.city === round.country
+                ? round.country
+                : `${round.city}, ${round.country}`}
             </span>
           </div>
           <div className="reveal-card__score">

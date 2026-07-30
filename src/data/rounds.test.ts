@@ -14,8 +14,14 @@ describe('panorama catalog', () => {
     expect(new Set(rounds.map(({ countryCode }) => countryCode)).size).toBe(73)
     expect(
       rounds.every(
-        ({ countryCode, photographer, licenseUrl }) =>
-          countryCode.length === 2 && photographer && licenseUrl.startsWith('https://'),
+        ({ countryCode, latitude, longitude, photographer, licenseUrl }) =>
+          countryCode.length === 2 &&
+          latitude >= -90 &&
+          latitude <= 90 &&
+          longitude >= -180 &&
+          longitude <= 180 &&
+          photographer &&
+          licenseUrl.startsWith('https://'),
       ),
     ).toBe(true)
   })

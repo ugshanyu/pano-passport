@@ -7,7 +7,7 @@ Look around, read the visual clues, and choose the country.
 
 - 200 curated outdoor locations across 73 countries
 - Full and partial equirectangular 360° panorama support
-- Five randomized rounds with country-based scoring
+- Five randomized rounds with four country choices and distance-based scoring
 - Desktop, phone, keyboard, touch, zoom, and fullscreen support
 - Local personal-best storage when played outside Usion
 - Usion friends and worldwide leaderboards when opened inside the host app
@@ -25,12 +25,17 @@ billable map service.
 - [Wikimedia Commons](https://commons.wikimedia.org/) and
   [Mapillary](https://www.mapillary.com/) provide the openly licensed imagery.
 - Each image is CC0, CC BY, or CC BY-SA and links to its original source.
-- [country-list](https://www.npmjs.com/package/country-list) supplies country names under MIT.
+- [world-countries](https://github.com/mledoze/countries) supplies geographic
+  country reference points under ODbL 1.0.
 - Vite builds a static site that can run on Vercel's free tier.
 
 Open 360° coverage is uneven. The app only counts a country after a genuine
 panorama and its license have been checked; it does not disguise flat photos as
 360° content. See [ATTRIBUTIONS.md](ATTRIBUTIONS.md) for the current catalog.
+
+Correct answers earn 1,000 points. Wrong answers earn up to 750 points and
+decrease with the distance from the landmark to the selected country's
+geographic reference point.
 
 ## Run locally
 

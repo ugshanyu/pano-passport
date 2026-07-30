@@ -35,6 +35,7 @@ export function MapillaryPanoramaViewer({
           component: {
             attribution: true,
             bearing: false,
+            cache: false,
             cover: false,
             direction: false,
             sequence: false,

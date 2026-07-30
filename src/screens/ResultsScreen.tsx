@@ -3,6 +3,7 @@ import { useState } from 'react'
 import { Brand } from '../components/Brand'
 import { Leaderboard } from '../components/Leaderboard'
 import { MAX_GAME_SCORE, roundPreviewUrl } from '../lib/game'
+import { formatDistance } from '../lib/geography'
 import type { RoundResult } from '../types'
 
 type ResultsScreenProps = {
@@ -94,7 +95,9 @@ export function ResultsScreen({
               <p>{result.round.country}</p>
               <h2>{result.round.landmark}</h2>
               <span>
-                {result.correct ? 'Correct' : `Your guess: ${result.guessedCountry}`}
+                {result.correct
+                  ? 'Correct · Exact country'
+                  : `${result.guessedCountry} · ${formatDistance(result.distanceKm)}`}
               </span>
             </div>
             <strong className={result.correct ? 'recap-correct' : 'recap-wrong'}>

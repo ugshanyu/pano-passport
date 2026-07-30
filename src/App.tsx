@@ -1,7 +1,8 @@
 import { useEffect, useMemo, useState } from 'react'
 import './App.css'
 import roundsData from './data/rounds.json'
-import { scoreForCountry, selectRounds } from './lib/game'
+import { selectRounds } from './lib/game'
+import { createCountryOptions, scoreGuess } from './lib/geography'
 import { getUsionBestScore } from './lib/usion'
 import { GameScreen } from './screens/GameScreen'
 import { HomeScreen } from './screens/HomeScreen'
@@ -80,12 +81,14 @@ function App({ embedded = false }: { embedded?: boolean }) {
 
   const submitGuess = (countryCode: string, countryName: string) => {
     const round = gameRounds[roundIndex]
-    const points = scoreForCountry(countryCode, round.countryCode)
+    const { distanceKm, points } = scoreGuess(countryCode, round)
+    const correct = countryCode.toUpperCase() === round.countryCode.toUpperCase()
     const result = {
       round,
       guessedCountry: countryName,
       guessedCountryCode: countryCode,
-      correct: points > 0,
+      correct,
+      distanceKm,
       points,
     }
     setResults((current) => [...current, result])
@@ -140,6 +143,7 @@ function App({ embedded = false }: { embedded?: boolean }) {
     <GameScreen
       key={round.id}
       round={round}
+      options={createCountryOptions(round, rounds)}
       nextRound={gameRounds[roundIndex + 1]}
       roundIndex={roundIndex}
       score={score}

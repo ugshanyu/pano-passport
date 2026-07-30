@@ -1,5 +1,6 @@
 import { mkdir, readFile, readdir, unlink, writeFile } from 'node:fs/promises'
 import { basename, dirname, resolve } from 'node:path'
+import countries from 'world-countries'
 
 const ROOT = resolve(import.meta.dirname, '..')
 const DEFAULT_MAIN = '/tmp/pano-passport-mapillary-candidates.json'
@@ -24,6 +25,7 @@ const paths = {
   coverage: argument('coverage', DEFAULT_COVERAGE),
   wikimedia: resolve(ROOT, 'scripts/catalog/wikimedia-rounds.json'),
   output: resolve(ROOT, 'src/data/rounds.json'),
+  countryCenters: resolve(ROOT, 'src/data/country-centers.json'),
   previews: resolve(ROOT, 'public/previews/mapillary'),
   attributions: resolve(ROOT, 'ATTRIBUTIONS.md'),
 }
@@ -59,6 +61,8 @@ function mapillaryRound(place, panorama) {
     country: place.country,
     countryCode: place.countryCode,
     landmark: place.landmark,
+    latitude: place.latitude,
+    longitude: place.longitude,
     mapillaryImageId: panorama.id,
     previewUrl: `/previews/mapillary/${panorama.id}.jpg`,
     photographer: panorama.creator,
@@ -214,6 +218,19 @@ await writeFile(paths.output, `${JSON.stringify(rounds, null, 2)}\n`)
 await writeFile(paths.attributions, attributionMarkdown(rounds))
 
 const countryCount = new Set(rounds.map(({ countryCode }) => countryCode)).size
+const selectedCountryCodes = new Set(rounds.map(({ countryCode }) => countryCode))
+const countryCenters = Object.fromEntries(
+  countries
+    .filter(({ cca2 }) => selectedCountryCodes.has(cca2))
+    .map(({ cca2, latlng }) => [cca2, latlng]),
+)
+if (Object.keys(countryCenters).length !== countryCount) {
+  throw new Error('Country coordinate data is incomplete')
+}
+await writeFile(
+  paths.countryCenters,
+  `${JSON.stringify(countryCenters, null, 2)}\n`,
+)
 console.log(
   `Built ${rounds.length} outdoor rounds across ${countryCount} countries`,
 )

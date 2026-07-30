@@ -1,19 +1,10 @@
 import { describe, expect, it } from 'vitest'
 import {
-  MAX_ROUND_SCORE,
   panoramaVerticalAngle,
   roundPreviewUrl,
-  scoreForCountry,
   selectRounds,
 } from './game'
 import type { Round } from '../types'
-
-describe('scoreForCountry', () => {
-  it('awards points only for the correct country code', () => {
-    expect(scoreForCountry('jp', 'JP')).toBe(MAX_ROUND_SCORE)
-    expect(scoreForCountry('FR', 'JP')).toBe(0)
-  })
-})
 
 describe('panoramaVerticalAngle', () => {
   it('recognizes a full 2:1 photosphere', () => {

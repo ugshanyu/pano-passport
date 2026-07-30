@@ -30,7 +30,7 @@
 
   .photo-credit {
     right: 14px;
-    bottom: 166px;
+    bottom: 184px;
     left: 14px;
     max-width: none;
   }
@@ -47,14 +47,34 @@
   }
 
   .guess-dock {
-    grid-template-columns: 1fr;
-    gap: 9px;
     padding: 12px 14px calc(14px + env(safe-area-inset-bottom));
   }
 
-  .country-picker select,
-  .guess-button {
-    min-height: 48px;
+  .guess-dock__header {
+    padding-bottom: 8px;
+  }
+
+  .guess-dock__header span {
+    max-width: 58%;
+    text-align: right;
+  }
+
+  .country-choices {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+  }
+
+  .country-choice {
+    min-height: 46px;
+    padding: 7px 9px;
+  }
+
+  .country-choice > span {
+    font-size: 19px;
+  }
+
+  .country-choice strong {
+    font-size: 11px;
   }
 
   .reveal-card {

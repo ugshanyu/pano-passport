@@ -100,7 +100,7 @@ export function HomeScreen({
             <h2>
               <Flag size={21} /> Name the country
             </h2>
-            <p>Choose from the full country list and earn 1,000 points if correct.</p>
+            <p>Choose from four countries. Correct earns 1,000; nearby misses earn partial points.</p>
           </article>
         </div>
       </section>
@@ -139,6 +139,14 @@ export function HomeScreen({
             rel="noreferrer"
           >
             MapillaryJS
+          </a>
+          {' · '}Country coordinates by{' '}
+          <a
+            href="https://github.com/mledoze/countries"
+            target="_blank"
+            rel="noreferrer"
+          >
+            world-countries
           </a>
         </p>
       </footer>

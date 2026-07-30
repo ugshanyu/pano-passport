@@ -4,6 +4,8 @@ type RoundBase = {
   country: string
   countryCode: string
   landmark: string
+  latitude: number
+  longitude: number
   photographer: string
   license: string
   licenseUrl: string
@@ -27,10 +29,16 @@ export type MapillaryRound = RoundBase & {
 
 export type Round = WikimediaRound | MapillaryRound
 
+export type CountryOption = {
+  code: string
+  name: string
+}
+
 export type RoundResult = {
   round: Round
   guessedCountry: string
   guessedCountryCode: string
   correct: boolean
+  distanceKm: number
   points: number
 }
