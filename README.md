@@ -65,3 +65,6 @@ without server functions or environment variables.
 
 Inside Usion, the game waits for the official SDK host handshake, starts the
 first round immediately, and submits only completed five-round scores.
+
+- Play: https://pano-passport.vercel.app
+- Usion: https://usions.com/chat/iframe/pano-passport
