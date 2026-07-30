@@ -5,7 +5,7 @@ Look around, read the visual clues, and choose the country.
 
 ## What is included
 
-- 200 curated outdoor locations across 65 countries
+- 200 curated outdoor locations across 73 countries
 - Full and partial equirectangular 360° panorama support
 - Five randomized rounds with country-based scoring
 - Desktop, phone, keyboard, touch, zoom, and fullscreen support

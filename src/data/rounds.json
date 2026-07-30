@@ -638,34 +638,6 @@
     "sourceUrl": "https://www.mapillary.com/app/?pKey=647898304384694"
   },
   {
-    "id": "mapillary-1088800475877354",
-    "provider": "mapillary",
-    "city": "Ekerö Municipality",
-    "country": "Sweden",
-    "countryCode": "SE",
-    "landmark": "Drottningholm Palace",
-    "mapillaryImageId": "1088800475877354",
-    "previewUrl": "/previews/mapillary/1088800475877354.jpg",
-    "photographer": "bruno360",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "sourceUrl": "https://www.mapillary.com/app/?pKey=1088800475877354"
-  },
-  {
-    "id": "mapillary-1390577706131743",
-    "provider": "mapillary",
-    "city": "Eisenach",
-    "country": "Germany",
-    "countryCode": "DE",
-    "landmark": "Wartburg",
-    "mapillaryImageId": "1390577706131743",
-    "previewUrl": "/previews/mapillary/1390577706131743.jpg",
-    "photographer": "Mobilitaetswerk",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "sourceUrl": "https://www.mapillary.com/app/?pKey=1390577706131743"
-  },
-  {
     "id": "mapillary-1122954429767340",
     "provider": "mapillary",
     "city": "Campania",
@@ -792,20 +764,6 @@
     "sourceUrl": "https://www.mapillary.com/app/?pKey=284078663375146"
   },
   {
-    "id": "mapillary-416093428127558",
-    "provider": "mapillary",
-    "city": "Helsingør Municipality",
-    "country": "Denmark",
-    "countryCode": "DK",
-    "landmark": "Kronborg Castle",
-    "mapillaryImageId": "416093428127558",
-    "previewUrl": "/previews/mapillary/416093428127558.jpg",
-    "photographer": "pierreserpe",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "sourceUrl": "https://www.mapillary.com/app/?pKey=416093428127558"
-  },
-  {
     "id": "mapillary-1523019451822288",
     "provider": "mapillary",
     "city": "Fife",
@@ -848,20 +806,6 @@
     "sourceUrl": "https://www.mapillary.com/app/?pKey=1038654064754467"
   },
   {
-    "id": "mapillary-1506446447369050",
-    "provider": "mapillary",
-    "city": "Collinsville",
-    "country": "United States",
-    "countryCode": "US",
-    "landmark": "Cahokia",
-    "mapillaryImageId": "1506446447369050",
-    "previewUrl": "/previews/mapillary/1506446447369050.jpg",
-    "photographer": "nthp_gis",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "sourceUrl": "https://www.mapillary.com/app/?pKey=1506446447369050"
-  },
-  {
     "id": "mapillary-1228735639009978",
     "provider": "mapillary",
     "city": "Kutaisi",
@@ -874,20 +818,6 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "sourceUrl": "https://www.mapillary.com/app/?pKey=1228735639009978"
-  },
-  {
-    "id": "mapillary-1156824449848423",
-    "provider": "mapillary",
-    "city": "Barren County",
-    "country": "United States",
-    "countryCode": "US",
-    "landmark": "Mammoth Cave National Park",
-    "mapillaryImageId": "1156824449848423",
-    "previewUrl": "/previews/mapillary/1156824449848423.jpg",
-    "photographer": "quickness805",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "sourceUrl": "https://www.mapillary.com/app/?pKey=1156824449848423"
   },
   {
     "id": "mapillary-24119602850994637",
@@ -930,20 +860,6 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "sourceUrl": "https://www.mapillary.com/app/?pKey=1182399303153855"
-  },
-  {
-    "id": "mapillary-1414047839905153",
-    "provider": "mapillary",
-    "city": "Italy",
-    "country": "Italy",
-    "countryCode": "IT",
-    "landmark": "prehistoric pile dwellings around the Alps",
-    "mapillaryImageId": "1414047839905153",
-    "previewUrl": "/previews/mapillary/1414047839905153.jpg",
-    "photographer": "RadNETZ",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "sourceUrl": "https://www.mapillary.com/app/?pKey=1414047839905153"
   },
   {
     "id": "mapillary-1575979090434680",
@@ -1140,20 +1056,6 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "sourceUrl": "https://www.mapillary.com/app/?pKey=928243333618758"
-  },
-  {
-    "id": "mapillary-1677784486104235",
-    "provider": "mapillary",
-    "city": "Wrocław",
-    "country": "Poland",
-    "countryCode": "PL",
-    "landmark": "Centennial Hall",
-    "mapillaryImageId": "1677784486104235",
-    "previewUrl": "/previews/mapillary/1677784486104235.jpg",
-    "photographer": "Jarda101",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "sourceUrl": "https://www.mapillary.com/app/?pKey=1677784486104235"
   },
   {
     "id": "mapillary-3011408869073620",
@@ -1364,20 +1266,6 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "sourceUrl": "https://www.mapillary.com/app/?pKey=976154246814881"
-  },
-  {
-    "id": "mapillary-737876248052889",
-    "provider": "mapillary",
-    "city": "Woluwe-Saint-Pierre",
-    "country": "Belgium",
-    "countryCode": "BE",
-    "landmark": "Stoclet Palace",
-    "mapillaryImageId": "737876248052889",
-    "previewUrl": "/previews/mapillary/737876248052889.jpg",
-    "photographer": "Stefdegreef",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "sourceUrl": "https://www.mapillary.com/app/?pKey=737876248052889"
   },
   {
     "id": "mapillary-337370132711285",
@@ -2820,5 +2708,117 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "sourceUrl": "https://www.mapillary.com/app/?pKey=1688081639116259"
+  },
+  {
+    "id": "mapillary-1894786377586179",
+    "provider": "mapillary",
+    "city": "Gianyar",
+    "country": "Indonesia",
+    "countryCode": "ID",
+    "landmark": "Pegulingan Temple",
+    "mapillaryImageId": "1894786377586179",
+    "previewUrl": "/previews/mapillary/1894786377586179.jpg",
+    "photographer": "flashkiwi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourceUrl": "https://www.mapillary.com/app/?pKey=1894786377586179"
+  },
+  {
+    "id": "mapillary-152199023512881",
+    "provider": "mapillary",
+    "city": "Willemstad",
+    "country": "Curaçao",
+    "countryCode": "CW",
+    "landmark": "Historic Area of Willemstad, Inner City and Harbour, Curaçao",
+    "mapillaryImageId": "152199023512881",
+    "previewUrl": "/previews/mapillary/152199023512881.jpg",
+    "photographer": "ost360vr_Joscelin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourceUrl": "https://www.mapillary.com/app/?pKey=152199023512881"
+  },
+  {
+    "id": "mapillary-3848575905240310",
+    "provider": "mapillary",
+    "city": "Sabail raion",
+    "country": "Azerbaijan",
+    "countryCode": "AZ",
+    "landmark": "Walled City of Baku with the Shirvanshahs' Palace and Maiden Tower",
+    "mapillaryImageId": "3848575905240310",
+    "previewUrl": "/previews/mapillary/3848575905240310.jpg",
+    "photographer": "westbam",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourceUrl": "https://www.mapillary.com/app/?pKey=3848575905240310"
+  },
+  {
+    "id": "mapillary-6282789761746949",
+    "provider": "mapillary",
+    "city": "Lebanon",
+    "country": "Lebanon",
+    "countryCode": "LB",
+    "landmark": "Ouadi Qadisha (the Holy Valley) and the Forest of the Cedars of God (Horsh Arz el-Rab)",
+    "mapillaryImageId": "6282789761746949",
+    "previewUrl": "/previews/mapillary/6282789761746949.jpg",
+    "photographer": "sandroeid",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourceUrl": "https://www.mapillary.com/app/?pKey=6282789761746949"
+  },
+  {
+    "id": "mapillary-1406776669683324",
+    "provider": "mapillary",
+    "city": "Sancti Spíritus Province",
+    "country": "Cuba",
+    "countryCode": "CU",
+    "landmark": "Trinidad and the Valley de los Ingenios",
+    "mapillaryImageId": "1406776669683324",
+    "previewUrl": "/previews/mapillary/1406776669683324.jpg",
+    "photographer": "ost360vr_Joscelin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourceUrl": "https://www.mapillary.com/app/?pKey=1406776669683324"
+  },
+  {
+    "id": "mapillary-761673911194523",
+    "provider": "mapillary",
+    "city": "Galle",
+    "country": "Sri Lanka",
+    "countryCode": "LK",
+    "landmark": "Old Town of Galle and its Fortifications",
+    "mapillaryImageId": "761673911194523",
+    "previewUrl": "/previews/mapillary/761673911194523.jpg",
+    "photographer": "gazaly",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourceUrl": "https://www.mapillary.com/app/?pKey=761673911194523"
+  },
+  {
+    "id": "mapillary-469483342221912",
+    "provider": "mapillary",
+    "city": "Panama City",
+    "country": "Panama",
+    "countryCode": "PA",
+    "landmark": "Archaeological Site of Panamá Viejo and Historic District of Panamá",
+    "mapillaryImageId": "469483342221912",
+    "previewUrl": "/previews/mapillary/469483342221912.jpg",
+    "photographer": "kaart_4",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourceUrl": "https://www.mapillary.com/app/?pKey=469483342221912"
+  },
+  {
+    "id": "mapillary-1362936038412180",
+    "provider": "mapillary",
+    "city": "Cyprus",
+    "country": "Cyprus",
+    "countryCode": "CY",
+    "landmark": "Paphos",
+    "mapillaryImageId": "1362936038412180",
+    "previewUrl": "/previews/mapillary/1362936038412180.jpg",
+    "photographer": "algirdasc",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourceUrl": "https://www.mapillary.com/app/?pKey=1362936038412180"
   }
 ]

@@ -49,8 +49,6 @@ displayed through MapillaryJS and retain Mapillary’s required in-view attribut
 | Hội An | Vietnam | [DaniW42](https://www.mapillary.com/app/?pKey=948740351421333) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 | Ani | Turkey | [58zarali](https://www.mapillary.com/app/?pKey=328648026812544) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 | Pont du Gard | France | [Rando360](https://www.mapillary.com/app/?pKey=647898304384694) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
-| Drottningholm Palace | Sweden | [bruno360](https://www.mapillary.com/app/?pKey=1088800475877354) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
-| Wartburg | Germany | [Mobilitaetswerk](https://www.mapillary.com/app/?pKey=1390577706131743) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 | Amalfi Coast | Italy | [mapconcierge](https://www.mapillary.com/app/?pKey=1122954429767340) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 | Hegra | Saudi Arabia | [mahmoud12](https://www.mapillary.com/app/?pKey=456612465434802) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 | Malbork Castle | Poland | [fundacja_geolife](https://www.mapillary.com/app/?pKey=473821523931190) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
@@ -60,17 +58,13 @@ displayed through MapillaryJS and retain Mapillary’s required in-view attribut
 | Canal du Midi | France | [alixun](https://www.mapillary.com/app/?pKey=139451698962693) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 | Burgos Cathedral | Spain | [sanjorgepinho](https://www.mapillary.com/app/?pKey=1554486875531504) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 | Château de Chambord | France | [geovelo](https://www.mapillary.com/app/?pKey=284078663375146) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
-| Kronborg Castle | Denmark | [pierreserpe](https://www.mapillary.com/app/?pKey=416093428127558) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 | Forth Bridge | United Kingdom | [Walk-Wheel-Cycle-Trust](https://www.mapillary.com/app/?pKey=1523019451822288) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 | Chhatrapati Shivaji Maharaj Terminus | India | [tranzitnotes](https://www.mapillary.com/app/?pKey=5559257354163377) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 | Santa Maria delle Grazie | Italy | [jacopofar](https://www.mapillary.com/app/?pKey=1038654064754467) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
-| Cahokia | United States | [nthp_gis](https://www.mapillary.com/app/?pKey=1506446447369050) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 | Gelati Monastery | Georgia | [bumbeishvili](https://www.mapillary.com/app/?pKey=1228735639009978) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
-| Mammoth Cave National Park | United States | [quickness805](https://www.mapillary.com/app/?pKey=1156824449848423) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 | Tower of Hercules | Spain | [sanjorgepinho](https://www.mapillary.com/app/?pKey=24119602850994637) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 | Suomenlinna | Finland | [jipx](https://www.mapillary.com/app/?pKey=650424470919303) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 | Mystras | Greece | [efikour](https://www.mapillary.com/app/?pKey=1182399303153855) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
-| prehistoric pile dwellings around the Alps | Italy | [RadNETZ](https://www.mapillary.com/app/?pKey=1414047839905153) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 | Kew Gardens | United Kingdom | [asturksever](https://www.mapillary.com/app/?pKey=1575979090434680) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 | Hollókő | Hungary | [trackman](https://www.mapillary.com/app/?pKey=493999955265817) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 | Antonine Wall | United Kingdom | [Walk-Wheel-Cycle-Trust](https://www.mapillary.com/app/?pKey=343025335554613) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
@@ -85,7 +79,6 @@ displayed through MapillaryJS and retain Mapillary’s required in-view attribut
 | Ponte Vecchio | Italy | [borisma](https://www.mapillary.com/app/?pKey=251374090835463) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 | Urnes Stave Church | Norway | [catoandersen](https://www.mapillary.com/app/?pKey=1149789952346023) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 | Tournai Cathedral | Belgium | [rmic](https://www.mapillary.com/app/?pKey=928243333618758) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
-| Centennial Hall | Poland | [Jarda101](https://www.mapillary.com/app/?pKey=1677784486104235) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 | Trinity Lavra of St. Sergius | Russia | [investpromvs](https://www.mapillary.com/app/?pKey=3011408869073620) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 | Madara Rider | Bulgaria | [alexanderbtodorov](https://www.mapillary.com/app/?pKey=530885505985300) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 | Bryggen | Norway | [catoandersen](https://www.mapillary.com/app/?pKey=3037871923158478) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
@@ -101,7 +94,6 @@ displayed through MapillaryJS and retain Mapillary’s required in-view attribut
 | Maulbronn Monastery | Germany | [changchun1](https://www.mapillary.com/app/?pKey=365615904894404) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 | Jongmyo | South Korea | [lisbethw1130](https://www.mapillary.com/app/?pKey=683901074480375) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 | Megalithic Temples of Malta | Malta | [ente](https://www.mapillary.com/app/?pKey=976154246814881) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
-| Stoclet Palace | Belgium | [Stefdegreef](https://www.mapillary.com/app/?pKey=737876248052889) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 | Rock-hewn Churches of Ivanovo | Bulgaria | [alexanderbtodorov](https://www.mapillary.com/app/?pKey=337370132711285) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 | iron pillar of Delhi | India | [Pardeep87042](https://www.mapillary.com/app/?pKey=1217345956215897) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 | Crespi d'Adda | Italy | [giubar](https://www.mapillary.com/app/?pKey=4625979377430012) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
@@ -205,3 +197,11 @@ displayed through MapillaryJS and retain Mapillary’s required in-view attribut
 | Monasteries of Daphni, Hosios Loukas and Nea Moni of Chios | Greece | [algirdasc](https://www.mapillary.com/app/?pKey=1026417196794258) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 | Historic Centre of Siena | Italy | [marcuscalabresus](https://www.mapillary.com/app/?pKey=1126384501190342) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 | archaeological Site of Delphi | Greece | [algirdasc](https://www.mapillary.com/app/?pKey=1688081639116259) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
+| Pegulingan Temple | Indonesia | [flashkiwi](https://www.mapillary.com/app/?pKey=1894786377586179) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
+| Historic Area of Willemstad, Inner City and Harbour, Curaçao | Curaçao | [ost360vr_Joscelin](https://www.mapillary.com/app/?pKey=152199023512881) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
+| Walled City of Baku with the Shirvanshahs' Palace and Maiden Tower | Azerbaijan | [westbam](https://www.mapillary.com/app/?pKey=3848575905240310) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
+| Ouadi Qadisha (the Holy Valley) and the Forest of the Cedars of God (Horsh Arz el-Rab) | Lebanon | [sandroeid](https://www.mapillary.com/app/?pKey=6282789761746949) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
+| Trinidad and the Valley de los Ingenios | Cuba | [ost360vr_Joscelin](https://www.mapillary.com/app/?pKey=1406776669683324) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
+| Old Town of Galle and its Fortifications | Sri Lanka | [gazaly](https://www.mapillary.com/app/?pKey=761673911194523) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
+| Archaeological Site of Panamá Viejo and Historic District of Panamá | Panama | [kaart_4](https://www.mapillary.com/app/?pKey=469483342221912) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
+| Paphos | Cyprus | [algirdasc](https://www.mapillary.com/app/?pKey=1362936038412180) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |

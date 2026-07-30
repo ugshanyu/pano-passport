@@ -1,10 +1,13 @@
-import { mkdir, readFile, writeFile } from 'node:fs/promises'
+import { mkdir, readFile, readdir, unlink, writeFile } from 'node:fs/promises'
 import { basename, dirname, resolve } from 'node:path'
 
 const ROOT = resolve(import.meta.dirname, '..')
 const DEFAULT_MAIN = '/tmp/pano-passport-mapillary-candidates.json'
 const DEFAULT_MORE = '/tmp/pano-passport-mapillary-more.json'
 const DEFAULT_ALTERNATIVES = '/tmp/pano-passport-mapillary-alternatives.json'
+const DEFAULT_DIVERSITY =
+  '/tmp/pano-passport-diversity-alternatives.json'
+const DEFAULT_COVERAGE = '/tmp/pano-passport-mapillary-coverage.json'
 
 function argument(name, fallback) {
   return resolve(
@@ -17,6 +20,8 @@ const paths = {
   main: argument('main', DEFAULT_MAIN),
   more: argument('more', DEFAULT_MORE),
   alternatives: argument('alternatives', DEFAULT_ALTERNATIVES),
+  diversity: argument('diversity', DEFAULT_DIVERSITY),
+  coverage: argument('coverage', DEFAULT_COVERAGE),
   wikimedia: resolve(ROOT, 'scripts/catalog/wikimedia-rounds.json'),
   output: resolve(ROOT, 'src/data/rounds.json'),
   previews: resolve(ROOT, 'public/previews/mapillary'),
@@ -24,13 +29,21 @@ const paths = {
 }
 
 const excludedMainIndexes = new Set([
-  1, 2, 8, 12, 15, 17, 22, 24, 25, 31, 33, 39, 53, 73, 79, 85, 146, 169,
+  1, 2, 8, 12, 15, 17, 22, 24, 25, 31, 33, 39, 46, 47, 53, 58, 62, 64, 68,
+  73, 79, 85, 86, 102, 146, 169,
 ])
-const includedMoreIndexes = [3, 4, 17, 27, 31, 34, 35, 39, 68, 69, 70, 71, 79, 80]
+const includedMoreIndexes = [
+  3, 4, 17, 27, 31, 34, 35, 39, 68, 69, 70, 71, 79, 80, 90, 165,
+]
+const includedCoverageIndexes = [5, 10, 28, 30, 39, 41]
 const replacementOptions = new Map([
   [5, 1],
   [103, 3],
   [193, 14],
+])
+const moreReplacementOptions = new Map([
+  [90, 14],
+  [165, 7],
 ])
 const excludedWikimediaIds = new Set([
   'soissons-cathedral',
@@ -96,18 +109,30 @@ function attributionMarkdown(rounds) {
   ].join('\n')
 }
 
-const [mainCatalog, moreCatalog, alternativesCatalog, wikimediaCatalog] =
+const [
+  mainCatalog,
+  moreCatalog,
+  alternativesCatalog,
+  diversityCatalog,
+  coverageCatalog,
+  wikimediaCatalog,
+] =
   await Promise.all(
     [
       paths.main,
       paths.more,
       paths.alternatives,
+      paths.diversity,
+      paths.coverage,
       paths.wikimedia,
     ].map(async (path) => JSON.parse(await readFile(path, 'utf8'))),
   )
 
 const alternativesByLandmark = new Map(
   alternativesCatalog.results.map((result) => [result.landmark, result]),
+)
+const diversityByLandmark = new Map(
+  diversityCatalog.results.map((result) => [result.landmark, result]),
 )
 const selected = []
 
@@ -132,6 +157,23 @@ for (const [index, place] of mainCatalog.candidates.entries()) {
 for (const catalogIndex of includedMoreIndexes) {
   const place = moreCatalog.candidates[catalogIndex - 1]
   if (!place) throw new Error(`Missing expanded candidate ${catalogIndex}`)
+  let panorama = place.panorama
+  const replacementOption = moreReplacementOptions.get(catalogIndex)
+  if (replacementOption) {
+    panorama =
+      diversityByLandmark.get(place.landmark)?.alternatives[
+        replacementOption - 1
+      ]
+    if (!panorama) {
+      throw new Error(`Missing diversity replacement for ${place.landmark}`)
+    }
+  }
+  selected.push({ place, panorama })
+}
+
+for (const catalogIndex of includedCoverageIndexes) {
+  const place = coverageCatalog.candidates[catalogIndex - 1]
+  if (!place) throw new Error(`Missing coverage candidate ${catalogIndex}`)
   selected.push({ place, panorama: place.panorama })
 }
 
@@ -157,6 +199,15 @@ await concurrent(selected, 8, async ({ panorama }, index) => {
     console.log(`Downloaded ${index + 1}/${selected.length} previews`)
   }
 })
+
+const selectedPreviews = new Set(
+  mapillaryRounds.map(({ previewUrl }) => basename(previewUrl)),
+)
+for (const filename of await readdir(paths.previews)) {
+  if (filename.endsWith('.jpg') && !selectedPreviews.has(filename)) {
+    await unlink(resolve(paths.previews, filename))
+  }
+}
 
 await mkdir(dirname(paths.output), { recursive: true })
 await writeFile(paths.output, `${JSON.stringify(rounds, null, 2)}\n`)

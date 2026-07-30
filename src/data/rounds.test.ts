@@ -11,6 +11,7 @@ describe('panorama catalog', () => {
     expect(rounds).toHaveLength(200)
     expect(new Set(rounds.map(({ id }) => id))).toHaveLength(200)
     expect(new Set(rounds.map(({ sourceUrl }) => sourceUrl))).toHaveLength(200)
+    expect(new Set(rounds.map(({ countryCode }) => countryCode)).size).toBe(73)
     expect(
       rounds.every(
         ({ countryCode, photographer, licenseUrl }) =>
