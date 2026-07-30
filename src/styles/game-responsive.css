@@ -1,0 +1,105 @@
+@media (max-width: 760px) {
+  .game-screen {
+    min-height: 590px;
+  }
+
+  .game-nav {
+    grid-template-columns: 1fr auto;
+    padding: 14px;
+  }
+
+  .round-progress {
+    position: absolute;
+    top: 64px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .score-pill {
+    min-width: auto;
+  }
+
+  .panorama-hint {
+    top: 103px;
+  }
+
+  .round-prompt {
+    top: 139px;
+    left: 14px;
+  }
+
+  .photo-credit {
+    right: 14px;
+    bottom: 166px;
+    left: 14px;
+    max-width: none;
+  }
+
+  .guess-dock,
+  .reveal-card {
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-width: 2px 0 0;
+    border-radius: 18px 18px 0 0;
+    box-shadow: 0 -12px 45px rgba(10, 12, 9, 0.3);
+  }
+
+  .guess-dock {
+    grid-template-columns: 1fr;
+    gap: 9px;
+    padding: 12px 14px calc(14px + env(safe-area-inset-bottom));
+  }
+
+  .country-picker select,
+  .guess-button {
+    min-height: 48px;
+  }
+
+  .reveal-card {
+    grid-template-columns: auto 1fr auto;
+    gap: 12px;
+    padding: 14px 14px calc(14px + env(safe-area-inset-bottom));
+  }
+
+  .reveal-card__location h1 {
+    font-size: 17px;
+  }
+
+  .reveal-card__score {
+    padding-left: 12px;
+  }
+
+  .reveal-card__score strong {
+    font-size: 19px;
+  }
+
+  .reveal-card .primary-button {
+    min-height: 46px;
+    grid-column: 1 / -1;
+  }
+
+  .game-screen--revealed .photo-credit {
+    bottom: 205px;
+  }
+
+  .panorama-shell .pnlm-controls-container {
+    bottom: 210px;
+  }
+}
+
+@media (max-width: 390px) {
+  .game-nav .brand--compact > span:last-child {
+    display: none;
+  }
+
+  .round-prompt strong {
+    font-size: 16px;
+  }
+
+  .answer-mark {
+    width: 38px;
+    height: 38px;
+  }
+}

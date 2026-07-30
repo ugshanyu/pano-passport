@@ -1,0 +1,124 @@
+@import './styles/home.css';
+@import './styles/home-responsive.css';
+@import './styles/panorama.css';
+@import './styles/game.css';
+@import './styles/game-responsive.css';
+@import './styles/results.css';
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-family: 'Manrope', system-ui, sans-serif;
+  font-size: 21px;
+  font-weight: 800;
+  letter-spacing: -0.8px;
+  white-space: nowrap;
+}
+
+.brand > span:last-child > span {
+  color: #6a8f15;
+}
+
+.brand__mark {
+  display: grid;
+  width: 38px;
+  height: 38px;
+  place-items: center;
+  border: 1.5px solid var(--ink);
+  border-radius: 50%;
+  background: var(--lime);
+  transform: rotate(-8deg);
+}
+
+.brand--compact {
+  gap: 7px;
+  font-size: 17px;
+  letter-spacing: -0.55px;
+}
+
+.brand--compact .brand__mark {
+  width: 31px;
+  height: 31px;
+}
+
+.brand--inverted {
+  color: white;
+}
+
+.brand--inverted > span:last-child > span {
+  color: var(--lime);
+}
+
+.brand--inverted .brand__mark {
+  color: var(--ink);
+  border-color: rgba(255, 255, 255, 0.65);
+}
+
+.primary-button,
+.secondary-button,
+.guess-button {
+  display: inline-flex;
+  min-height: 52px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 0 22px;
+  border: 1.5px solid var(--ink);
+  border-radius: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease,
+    background 180ms ease;
+}
+
+.primary-button {
+  background: var(--lime);
+  box-shadow: 5px 5px 0 var(--ink);
+}
+
+.primary-button:hover,
+.guess-button:not(:disabled):hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 7px 7px 0 var(--ink);
+}
+
+.primary-button:active,
+.guess-button:not(:disabled):active {
+  transform: translate(3px, 3px);
+  box-shadow: 2px 2px 0 var(--ink);
+}
+
+.secondary-button {
+  background: transparent;
+}
+
+.secondary-button:hover {
+  background: white;
+}
+
+.text-button,
+.brand-button {
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+
+@media (max-width: 640px) {
+  .brand {
+    font-size: 18px;
+  }
+
+  .brand__mark {
+    width: 34px;
+    height: 34px;
+  }
+
+  .primary-button,
+  .secondary-button {
+    min-height: 50px;
+  }
+}
