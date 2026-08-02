@@ -6,6 +6,7 @@ import {
   type UsionConfig,
   type UsionGameMessage,
 } from '../lib/usion'
+import { loadSeen } from '../lib/seen-rounds'
 
 type CurrentUser = ReturnType<typeof getUsionCurrentUser>
 
@@ -46,6 +47,7 @@ export function useUsionRoomEvents(
         id: user.id,
         name: user.name,
         avatar: user.avatar,
+        seen: loadSeen(user.id),
       })
     }
 

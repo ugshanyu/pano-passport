@@ -85,6 +85,9 @@ export function createMultiplayerRoomHandlers({
         typeof data.name === 'string' && data.name.trim()
           ? data.name.trim()
           : 'Explorer'
+      const seen = Array.isArray(data.seen)
+        ? data.seen.filter((value): value is string => typeof value === 'string')
+        : null
       commit({
         ...active,
         presentIds: orderedPlayers(
@@ -99,6 +102,9 @@ export function createMultiplayerRoomHandlers({
             avatar: typeof data.avatar === 'string' ? data.avatar : null,
           },
         },
+        seenByPlayer: seen
+          ? { ...active.seenByPlayer, [id]: seen }
+          : active.seenByPlayer,
       })
     },
     action: applyAction,

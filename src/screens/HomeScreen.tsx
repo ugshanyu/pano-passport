@@ -7,6 +7,7 @@ import type { Round } from '../types'
 type HomeScreenProps = {
   bestScore: number
   coverage: number
+  unseenCount: number
   previews: Round[]
   roundCount: RoundCount
   multiplayer?: {
@@ -25,6 +26,7 @@ type HomeScreenProps = {
 export function HomeScreen({
   bestScore,
   coverage,
+  unseenCount,
   previews,
   roundCount,
   multiplayer,
@@ -103,9 +105,15 @@ export function HomeScreen({
           </button>
           <p className="hero-note">
             {multiplayer?.enabled
-              ? 'The host chooses the trip · Everyone sees the same places'
+              ? 'The host chooses the trip · Everyone sees places nobody here has played'
               : `Free forever · No sign-up · ${coverage} verified open-license countries`}
           </p>
+          {!multiplayer?.enabled && unseenCount > 0 && (
+            <p className="hero-note">
+              {unseenCount} new place{unseenCount === 1 ? '' : 's'} left before
+              the catalog repeats
+            </p>
+          )}
         </div>
 
         <div className="hero-postcards" aria-label="Open panorama previews">

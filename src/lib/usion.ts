@@ -140,6 +140,14 @@ export function getUsionCurrentUser() {
   }
 }
 
+export function getUsionUserId() {
+  try {
+    return window.Usion?.user.getId() || null
+  } catch {
+    return null
+  }
+}
+
 export async function getUsionBestScore() {
   const record = await sdk().leaderboard.me()
   return record.score ?? 0

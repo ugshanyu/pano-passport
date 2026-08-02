@@ -3,14 +3,17 @@ import './App.css'
 import roundsData from './data/rounds.json'
 import { useUsionMultiplayer } from './hooks/useUsionMultiplayer'
 import { saveBestScore, storedBestScore } from './lib/best-score'
-import {
-  DEFAULT_ROUND_COUNT,
-  selectRounds,
-  type RoundCount,
-} from './lib/game'
+import { DEFAULT_ROUND_COUNT, type RoundCount } from './lib/game'
 import { createCountryOptions, scoreGuess } from './lib/geography'
 import { buildMultiplayerResults, outcomeToRoundResult } from './lib/results'
-import { getUsionBestScore } from './lib/usion'
+import {
+  loadSeen,
+  saveSeen,
+  seenAfterSelection,
+  seenProgress,
+  selectUnseenRounds,
+} from './lib/seen-rounds'
+import { getUsionBestScore, getUsionUserId } from './lib/usion'
 import { GameScreen } from './screens/GameScreen'
 import { HomeScreen } from './screens/HomeScreen'
 import { ResultsScreen } from './screens/ResultsScreen'
@@ -29,8 +32,15 @@ function App({ embedded = false }: { embedded?: boolean }) {
   const [currentResult, setCurrentResult] = useState<RoundResult | null>(null)
   const [bestScore, setBestScore] = useState(storedBestScore)
   const [isNewBest, setIsNewBest] = useState(false)
+  const [seen, setSeen] = useState<string[]>([])
   const processedMatchRef = useRef<string | null>(null)
   const multiplayer = useUsionMultiplayer({ embedded, catalog: rounds })
+
+  useEffect(() => {
+    setSeen(loadSeen(getUsionUserId()))
+  }, [embedded, multiplayer.state.myId])
+
+  const progress = useMemo(() => seenProgress(rounds, [seen]), [seen])
 
   const soloScore = useMemo(
     () => results.reduce((sum, result) => sum + result.points, 0),
@@ -114,7 +124,6 @@ function App({ embedded = false }: { embedded?: boolean }) {
         })
       })
       .catch(() => {
-        // Record loading must never delay play.
       })
   }, [embedded])
 
@@ -131,7 +140,11 @@ function App({ embedded = false }: { embedded?: boolean }) {
       void multiplayer.startMatch(roundCount)
       return
     }
-    setGameRounds(selectRounds(rounds, roundCount))
+    const selection = selectUnseenRounds(rounds, roundCount, [seen])
+    const nextSeen = seenAfterSelection(seen, selection)
+    saveSeen(getUsionUserId(), nextSeen)
+    setSeen(nextSeen)
+    setGameRounds(selection.rounds)
     setRoundIndex(0)
     setResults([])
     setCurrentResult(null)
@@ -187,6 +200,7 @@ function App({ embedded = false }: { embedded?: boolean }) {
       <HomeScreen
         bestScore={bestScore}
         coverage={new Set(rounds.map(({ countryCode }) => countryCode)).size}
+        unseenCount={progress.remaining}
         previews={rounds.slice(0, 3)}
         roundCount={roundCount}
         multiplayer={

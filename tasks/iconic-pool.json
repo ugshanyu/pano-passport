@@ -1,0 +1,3642 @@
+[
+ {
+  "n": "Eiffel Tower",
+  "city": "Paris",
+  "country": "France",
+  "cc": "FR",
+  "region": "Europe",
+  "lat": 48.8584,
+  "lon": 2.2945,
+  "why": "Unmistakable iron lattice tower; Haussmann rooftops"
+ },
+ {
+  "n": "Colosseum",
+  "city": "Rome",
+  "country": "Italy",
+  "cc": "IT",
+  "region": "Europe",
+  "lat": 41.8902,
+  "lon": 12.4922,
+  "why": "Roman amphitheatre arcades"
+ },
+ {
+  "n": "Sagrada Família",
+  "city": "Barcelona",
+  "country": "Spain",
+  "cc": "ES",
+  "region": "Europe",
+  "lat": 41.4036,
+  "lon": 2.1744,
+  "why": "Gaudí spires, unlike any other church"
+ },
+ {
+  "n": "Westminster & Big Ben",
+  "city": "London",
+  "country": "United Kingdom",
+  "cc": "GB",
+  "region": "Europe",
+  "lat": 51.5007,
+  "lon": -0.1246,
+  "why": "Gothic Revival clock tower, Thames"
+ },
+ {
+  "n": "Brandenburg Gate",
+  "city": "Berlin",
+  "country": "Germany",
+  "cc": "DE",
+  "region": "Europe",
+  "lat": 52.5163,
+  "lon": 13.3777,
+  "why": "Neoclassical quadriga gate"
+ },
+ {
+  "n": "Charles Bridge",
+  "city": "Prague",
+  "country": "Czech Republic",
+  "cc": "CZ",
+  "region": "Europe",
+  "lat": 50.0865,
+  "lon": 14.4114,
+  "why": "Baroque statues, castle backdrop"
+ },
+ {
+  "n": "Grand-Place",
+  "city": "Brussels",
+  "country": "Belgium",
+  "cc": "BE",
+  "region": "Europe",
+  "lat": 50.8467,
+  "lon": 4.3525,
+  "why": "Gilded guildhall facades"
+ },
+ {
+  "n": "Prinsengracht canals",
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "cc": "NL",
+  "region": "Europe",
+  "lat": 52.3676,
+  "lon": 4.8842,
+  "why": "Gabled canal houses, bikes, bridges"
+ },
+ {
+  "n": "Acropolis & Parthenon",
+  "city": "Athens",
+  "country": "Greece",
+  "cc": "GR",
+  "region": "Europe",
+  "lat": 37.9715,
+  "lon": 23.7267,
+  "why": "Doric temple on limestone outcrop"
+ },
+ {
+  "n": "St Mark's Square",
+  "city": "Venice",
+  "country": "Italy",
+  "cc": "IT",
+  "region": "Europe",
+  "lat": 45.4341,
+  "lon": 12.3388,
+  "why": "Campanile, basilica domes, lagoon"
+ },
+ {
+  "n": "Neuschwanstein Castle",
+  "city": "Schwangau",
+  "country": "Germany",
+  "cc": "DE",
+  "region": "Europe",
+  "lat": 47.5576,
+  "lon": 10.7498,
+  "why": "Romantic castle on alpine crag"
+ },
+ {
+  "n": "Oia",
+  "city": "Santorini",
+  "country": "Greece",
+  "cc": "GR",
+  "region": "Europe",
+  "lat": 36.4618,
+  "lon": 25.3753,
+  "why": "White cubic houses, blue domes, caldera"
+ },
+ {
+  "n": "Matterhorn",
+  "city": "Zermatt",
+  "country": "Switzerland",
+  "cc": "CH",
+  "region": "Europe",
+  "lat": 45.9763,
+  "lon": 7.6586,
+  "why": "Pyramidal peak, instantly recognisable"
+ },
+ {
+  "n": "Nyhavn",
+  "city": "Copenhagen",
+  "country": "Denmark",
+  "cc": "DK",
+  "region": "Europe",
+  "lat": 55.6797,
+  "lon": 12.5913,
+  "why": "Coloured townhouses, wooden ships"
+ },
+ {
+  "n": "Markt",
+  "city": "Bruges",
+  "country": "Belgium",
+  "cc": "BE",
+  "region": "Europe",
+  "lat": 51.2085,
+  "lon": 3.2247,
+  "why": "Belfry, stepped gables"
+ },
+ {
+  "n": "Red Square & St Basil's",
+  "city": "Moscow",
+  "country": "Russia",
+  "cc": "RU",
+  "region": "Europe",
+  "lat": 55.7539,
+  "lon": 37.6208,
+  "why": "Onion domes, Kremlin wall"
+ },
+ {
+  "n": "Hallgrímskirkja",
+  "city": "Reykjavík",
+  "country": "Iceland",
+  "cc": "IS",
+  "region": "Europe",
+  "lat": 64.1417,
+  "lon": -21.9266,
+  "why": "Basalt-column concrete church"
+ },
+ {
+  "n": "Cliffs of Moher",
+  "city": "County Clare",
+  "country": "Ireland",
+  "cc": "IE",
+  "region": "Europe",
+  "lat": 52.9715,
+  "lon": -9.4309,
+  "why": "Vertical Atlantic sea cliffs"
+ },
+ {
+  "n": "Geirangerfjord",
+  "city": "Geiranger",
+  "country": "Norway",
+  "cc": "NO",
+  "region": "Europe",
+  "lat": 62.1049,
+  "lon": 7.0056,
+  "why": "Deep fjord walls, waterfalls"
+ },
+ {
+  "n": "Main Market Square",
+  "city": "Kraków",
+  "country": "Poland",
+  "cc": "PL",
+  "region": "Europe",
+  "lat": 50.0617,
+  "lon": 19.9373,
+  "why": "Cloth Hall, largest medieval square"
+ },
+ {
+  "n": "Parliament & Danube",
+  "city": "Budapest",
+  "country": "Hungary",
+  "cc": "HU",
+  "region": "Europe",
+  "lat": 47.507,
+  "lon": 19.0459,
+  "why": "Neo-Gothic riverfront parliament"
+ },
+ {
+  "n": "Dubrovnik Old Town",
+  "city": "Dubrovnik",
+  "country": "Croatia",
+  "cc": "HR",
+  "region": "Europe",
+  "lat": 42.6407,
+  "lon": 18.1077,
+  "why": "Walled city, terracotta roofs, Adriatic"
+ },
+ {
+  "n": "Belém Tower",
+  "city": "Lisbon",
+  "country": "Portugal",
+  "cc": "PT",
+  "region": "Europe",
+  "lat": 38.6916,
+  "lon": -9.216,
+  "why": "Manueline riverside fort"
+ },
+ {
+  "n": "Alhambra",
+  "city": "Granada",
+  "country": "Spain",
+  "cc": "ES",
+  "region": "Europe",
+  "lat": 37.1761,
+  "lon": -3.5881,
+  "why": "Moorish palace, Sierra Nevada behind"
+ },
+ {
+  "n": "Mont-Saint-Michel",
+  "city": "Normandy",
+  "country": "France",
+  "cc": "FR",
+  "region": "Europe",
+  "lat": 48.6361,
+  "lon": -1.5115,
+  "why": "Abbey on tidal island"
+ },
+ {
+  "n": "Edinburgh Castle & Royal Mile",
+  "city": "Edinburgh",
+  "country": "United Kingdom",
+  "cc": "GB",
+  "region": "Europe",
+  "lat": 55.9486,
+  "lon": -3.1999,
+  "why": "Castle on volcanic rock, tenements"
+ },
+ {
+  "n": "Hallstatt",
+  "city": "Hallstatt",
+  "country": "Austria",
+  "cc": "AT",
+  "region": "Europe",
+  "lat": 47.5622,
+  "lon": 13.6493,
+  "why": "Lakeside village under cliffs"
+ },
+ {
+  "n": "Bran Castle",
+  "city": "Bran",
+  "country": "Romania",
+  "cc": "RO",
+  "region": "Europe",
+  "lat": 45.5149,
+  "lon": 25.3671,
+  "why": "Carpathian hilltop castle"
+ },
+ {
+  "n": "Gamla Stan",
+  "city": "Stockholm",
+  "country": "Sweden",
+  "cc": "SE",
+  "region": "Europe",
+  "lat": 59.3252,
+  "lon": 18.0709,
+  "why": "Ochre waterfront, archipelago city"
+ },
+ {
+  "n": "Trevi Fountain",
+  "city": "Rome",
+  "country": "Italy",
+  "cc": "IT",
+  "region": "Europe",
+  "lat": 41.9009,
+  "lon": 12.4833,
+  "why": "Baroque fountain in tight piazza"
+ },
+ {
+  "n": "Taj Mahal",
+  "city": "Agra",
+  "country": "India",
+  "cc": "IN",
+  "region": "Asia",
+  "lat": 27.1751,
+  "lon": 78.0421,
+  "why": "White marble mausoleum, minarets"
+ },
+ {
+  "n": "Great Wall at Mutianyu",
+  "city": "Beijing",
+  "country": "China",
+  "cc": "CN",
+  "region": "Asia",
+  "lat": 40.4319,
+  "lon": 116.5704,
+  "why": "Ridge-following fortification"
+ },
+ {
+  "n": "Forbidden City",
+  "city": "Beijing",
+  "country": "China",
+  "cc": "CN",
+  "region": "Asia",
+  "lat": 39.9163,
+  "lon": 116.3972,
+  "why": "Vermilion halls, yellow tile roofs"
+ },
+ {
+  "n": "Shibuya Crossing",
+  "city": "Tokyo",
+  "country": "Japan",
+  "cc": "JP",
+  "region": "Asia",
+  "lat": 35.6595,
+  "lon": 139.7005,
+  "why": "Scramble crossing, neon screens"
+ },
+ {
+  "n": "Fushimi Inari",
+  "city": "Kyoto",
+  "country": "Japan",
+  "cc": "JP",
+  "region": "Asia",
+  "lat": 34.9671,
+  "lon": 135.7727,
+  "why": "Tunnels of vermilion torii"
+ },
+ {
+  "n": "Mount Fuji from Chureito",
+  "city": "Fujiyoshida",
+  "country": "Japan",
+  "cc": "JP",
+  "region": "Asia",
+  "lat": 35.5002,
+  "lon": 138.8004,
+  "why": "Pagoda framing symmetrical volcano"
+ },
+ {
+  "n": "Angkor Wat",
+  "city": "Siem Reap",
+  "country": "Cambodia",
+  "cc": "KH",
+  "region": "Asia",
+  "lat": 13.4125,
+  "lon": 103.867,
+  "why": "Khmer quincunx towers, moat"
+ },
+ {
+  "n": "Wat Arun & Grand Palace",
+  "city": "Bangkok",
+  "country": "Thailand",
+  "cc": "TH",
+  "region": "Asia",
+  "lat": 13.7437,
+  "lon": 100.4889,
+  "why": "Porcelain-clad prang, gilded spires"
+ },
+ {
+  "n": "Petronas Towers",
+  "city": "Kuala Lumpur",
+  "country": "Malaysia",
+  "cc": "MY",
+  "region": "Asia",
+  "lat": 3.1578,
+  "lon": 101.7117,
+  "why": "Twin towers with skybridge"
+ },
+ {
+  "n": "Marina Bay Sands",
+  "city": "Singapore",
+  "country": "Singapore",
+  "cc": "SG",
+  "region": "Asia",
+  "lat": 1.2834,
+  "lon": 103.8607,
+  "why": "Three towers under a sky-boat"
+ },
+ {
+  "n": "Hagia Sophia & Blue Mosque",
+  "city": "Istanbul",
+  "country": "Turkey",
+  "cc": "TR",
+  "region": "Asia",
+  "lat": 41.0086,
+  "lon": 28.9802,
+  "why": "Byzantine dome facing six minarets"
+ },
+ {
+  "n": "Cappadocia fairy chimneys",
+  "city": "Göreme",
+  "country": "Turkey",
+  "cc": "TR",
+  "region": "Asia",
+  "lat": 38.6431,
+  "lon": 34.8283,
+  "why": "Tuff cones, balloons at dawn"
+ },
+ {
+  "n": "Registan",
+  "city": "Samarkand",
+  "country": "Uzbekistan",
+  "cc": "UZ",
+  "region": "Asia",
+  "lat": 39.6547,
+  "lon": 66.9758,
+  "why": "Three tiled madrasas facing a square"
+ },
+ {
+  "n": "Gyeongbokgung",
+  "city": "Seoul",
+  "country": "South Korea",
+  "cc": "KR",
+  "region": "Asia",
+  "lat": 37.5796,
+  "lon": 126.977,
+  "why": "Palace gates against modern skyline"
+ },
+ {
+  "n": "Victoria Harbour",
+  "city": "Hong Kong",
+  "country": "China",
+  "cc": "HK",
+  "region": "Asia",
+  "lat": 22.294,
+  "lon": 114.1722,
+  "why": "Dense skyline, Star Ferry, Peak"
+ },
+ {
+  "n": "Ha Long Bay",
+  "city": "Quảng Ninh",
+  "country": "Vietnam",
+  "cc": "VN",
+  "region": "Asia",
+  "lat": 20.9101,
+  "lon": 107.1839,
+  "why": "Limestone karst towers in water"
+ },
+ {
+  "n": "Borobudur",
+  "city": "Magelang",
+  "country": "Indonesia",
+  "cc": "ID",
+  "region": "Asia",
+  "lat": -7.6079,
+  "lon": 110.2038,
+  "why": "Stepped stupa pyramid, volcanoes"
+ },
+ {
+  "n": "Tanah Lot",
+  "city": "Bali",
+  "country": "Indonesia",
+  "cc": "ID",
+  "region": "Asia",
+  "lat": -8.6212,
+  "lon": 115.0868,
+  "why": "Sea temple on tidal rock"
+ },
+ {
+  "n": "Shwedagon Pagoda",
+  "city": "Yangon",
+  "country": "Myanmar",
+  "cc": "MM",
+  "region": "Asia",
+  "lat": 16.7981,
+  "lon": 96.1495,
+  "why": "Vast gilded stupa"
+ },
+ {
+  "n": "Potala Palace",
+  "city": "Lhasa",
+  "country": "China",
+  "cc": "CN",
+  "region": "Asia",
+  "lat": 29.6578,
+  "lon": 91.117,
+  "why": "White-and-ochre palace on hill"
+ },
+ {
+  "n": "Persepolis",
+  "city": "Fars",
+  "country": "Iran",
+  "cc": "IR",
+  "region": "Asia",
+  "lat": 29.9356,
+  "lon": 52.8916,
+  "why": "Achaemenid columns and reliefs"
+ },
+ {
+  "n": "Bagan temple plain",
+  "city": "Bagan",
+  "country": "Myanmar",
+  "cc": "MM",
+  "region": "Asia",
+  "lat": 21.1717,
+  "lon": 94.8585,
+  "why": "Thousands of brick temples on plain"
+ },
+ {
+  "n": "Tiger's Nest (Paro Taktsang)",
+  "city": "Paro",
+  "country": "Bhutan",
+  "cc": "BT",
+  "region": "Asia",
+  "lat": 27.4917,
+  "lon": 89.3634,
+  "why": "Monastery clinging to cliff face"
+ },
+ {
+  "n": "Boudhanath Stupa",
+  "city": "Kathmandu",
+  "country": "Nepal",
+  "cc": "NP",
+  "region": "Asia",
+  "lat": 27.7215,
+  "lon": 85.362,
+  "why": "Whitewashed dome, painted eyes"
+ },
+ {
+  "n": "Everest Base Camp trail",
+  "city": "Khumbu",
+  "country": "Nepal",
+  "cc": "NP",
+  "region": "Asia",
+  "lat": 27.9881,
+  "lon": 86.925,
+  "why": "Himalayan giants, prayer flags"
+ },
+ {
+  "n": "Sigiriya",
+  "city": "Central Province",
+  "country": "Sri Lanka",
+  "cc": "LK",
+  "region": "Asia",
+  "lat": 7.957,
+  "lon": 80.7603,
+  "why": "Rock fortress rising from jungle"
+ },
+ {
+  "n": "Bayterek Tower",
+  "city": "Astana",
+  "country": "Kazakhstan",
+  "cc": "KZ",
+  "region": "Asia",
+  "lat": 51.1283,
+  "lon": 71.4305,
+  "why": "Golden-sphere tower, planned capital"
+ },
+ {
+  "n": "Ala-Too Square",
+  "city": "Bishkek",
+  "country": "Kyrgyzstan",
+  "cc": "KG",
+  "region": "Asia",
+  "lat": 42.8756,
+  "lon": 74.6034,
+  "why": "Soviet-era civic square, Tien Shan"
+ },
+ {
+  "n": "Pyramids of Giza",
+  "city": "Giza",
+  "country": "Egypt",
+  "cc": "EG",
+  "region": "Africa",
+  "lat": 29.9792,
+  "lon": 31.1342,
+  "why": "Pyramids and Sphinx on desert edge"
+ },
+ {
+  "n": "Abu Simbel",
+  "city": "Aswan",
+  "country": "Egypt",
+  "cc": "EG",
+  "region": "Africa",
+  "lat": 22.3372,
+  "lon": 31.6258,
+  "why": "Colossal rock-cut Ramses figures"
+ },
+ {
+  "n": "Table Mountain",
+  "city": "Cape Town",
+  "country": "South Africa",
+  "cc": "ZA",
+  "region": "Africa",
+  "lat": -33.9628,
+  "lon": 18.4098,
+  "why": "Flat-topped massif over the city"
+ },
+ {
+  "n": "Victoria Falls",
+  "city": "Livingstone",
+  "country": "Zimbabwe",
+  "cc": "ZW",
+  "region": "Africa",
+  "lat": -17.9243,
+  "lon": 25.8572,
+  "why": "Curtain waterfall, permanent spray"
+ },
+ {
+  "n": "Jemaa el-Fnaa",
+  "city": "Marrakech",
+  "country": "Morocco",
+  "cc": "MA",
+  "region": "Africa",
+  "lat": 31.6258,
+  "lon": -7.9891,
+  "why": "Market square, Koutoubia minaret"
+ },
+ {
+  "n": "Chefchaouen blue medina",
+  "city": "Chefchaouen",
+  "country": "Morocco",
+  "cc": "MA",
+  "region": "Africa",
+  "lat": 35.1688,
+  "lon": -5.2636,
+  "why": "Entirely blue-washed hill town"
+ },
+ {
+  "n": "Erg Chebbi dunes",
+  "city": "Merzouga",
+  "country": "Morocco",
+  "cc": "MA",
+  "region": "Africa",
+  "lat": 31.1,
+  "lon": -4,
+  "why": "Orange Saharan dune field"
+ },
+ {
+  "n": "Maasai Mara",
+  "city": "Narok",
+  "country": "Kenya",
+  "cc": "KE",
+  "region": "Africa",
+  "lat": -1.4061,
+  "lon": 35.008,
+  "why": "Savannah, acacia, wildlife"
+ },
+ {
+  "n": "Nairobi skyline & national park",
+  "city": "Nairobi",
+  "country": "Kenya",
+  "cc": "KE",
+  "region": "Africa",
+  "lat": -1.2864,
+  "lon": 36.8172,
+  "why": "Skyline directly behind savannah"
+ },
+ {
+  "n": "Rock churches of Lalibela",
+  "city": "Lalibela",
+  "country": "Ethiopia",
+  "cc": "ET",
+  "region": "Africa",
+  "lat": 12.0317,
+  "lon": 39.0417,
+  "why": "Churches carved down into bedrock"
+ },
+ {
+  "n": "Deadvlei & Sossusvlei",
+  "city": "Namib-Naukluft",
+  "country": "Namibia",
+  "cc": "NA",
+  "region": "Africa",
+  "lat": -24.7592,
+  "lon": 15.2921,
+  "why": "Dead camelthorn on white pan, red dunes"
+ },
+ {
+  "n": "Stone Town",
+  "city": "Zanzibar",
+  "country": "Tanzania",
+  "cc": "TZ",
+  "region": "Africa",
+  "lat": -6.1622,
+  "lon": 39.1922,
+  "why": "Swahili-Omani carved doors, coral stone"
+ },
+ {
+  "n": "Great Mosque of Djenné",
+  "city": "Djenné",
+  "country": "Mali",
+  "cc": "ML",
+  "region": "Africa",
+  "lat": 13.9054,
+  "lon": -4.555,
+  "why": "Largest mudbrick building, toron beams"
+ },
+ {
+  "n": "Cape Coast Castle",
+  "city": "Cape Coast",
+  "country": "Ghana",
+  "cc": "GH",
+  "region": "Africa",
+  "lat": 5.1053,
+  "lon": -1.2466,
+  "why": "Whitewashed slave fort on surf coast"
+ },
+ {
+  "n": "Avenue of the Baobabs",
+  "city": "Menabe",
+  "country": "Madagascar",
+  "cc": "MG",
+  "region": "Africa",
+  "lat": -20.2506,
+  "lon": 44.4183,
+  "why": "Baobab colonnade, found nowhere else"
+ },
+ {
+  "n": "Times Square",
+  "city": "New York",
+  "country": "United States",
+  "cc": "US",
+  "region": "North America",
+  "lat": 40.758,
+  "lon": -73.9855,
+  "why": "Wall-to-wall illuminated advertising"
+ },
+ {
+  "n": "Golden Gate Bridge",
+  "city": "San Francisco",
+  "country": "United States",
+  "cc": "US",
+  "region": "North America",
+  "lat": 37.8199,
+  "lon": -122.4783,
+  "why": "Orange suspension towers, fog"
+ },
+ {
+  "n": "Grand Canyon South Rim",
+  "city": "Arizona",
+  "country": "United States",
+  "cc": "US",
+  "region": "North America",
+  "lat": 36.0544,
+  "lon": -112.1401,
+  "why": "Layered canyon walls"
+ },
+ {
+  "n": "Monument Valley",
+  "city": "Utah",
+  "country": "United States",
+  "cc": "US",
+  "region": "North America",
+  "lat": 36.998,
+  "lon": -110.0985,
+  "why": "Isolated sandstone buttes"
+ },
+ {
+  "n": "Grand Prismatic Spring",
+  "city": "Wyoming",
+  "country": "United States",
+  "cc": "US",
+  "region": "North America",
+  "lat": 44.5251,
+  "lon": -110.8382,
+  "why": "Concentric orange-blue hot spring"
+ },
+ {
+  "n": "Las Vegas Strip",
+  "city": "Las Vegas",
+  "country": "United States",
+  "cc": "US",
+  "region": "North America",
+  "lat": 36.1147,
+  "lon": -115.1728,
+  "why": "Replica landmarks, desert casino strip"
+ },
+ {
+  "n": "Cloud Gate, Millennium Park",
+  "city": "Chicago",
+  "country": "United States",
+  "cc": "US",
+  "region": "North America",
+  "lat": 41.8827,
+  "lon": -87.6233,
+  "why": "Mirrored bean reflecting skyline"
+ },
+ {
+  "n": "French Quarter",
+  "city": "New Orleans",
+  "country": "United States",
+  "cc": "US",
+  "region": "North America",
+  "lat": 29.9584,
+  "lon": -90.0644,
+  "why": "Cast-iron balconies, Creole townhouses"
+ },
+ {
+  "n": "Moraine Lake",
+  "city": "Banff",
+  "country": "Canada",
+  "cc": "CA",
+  "region": "North America",
+  "lat": 51.3217,
+  "lon": -116.186,
+  "why": "Turquoise lake, Valley of Ten Peaks"
+ },
+ {
+  "n": "CN Tower & skyline",
+  "city": "Toronto",
+  "country": "Canada",
+  "cc": "CA",
+  "region": "North America",
+  "lat": 43.6426,
+  "lon": -79.3871,
+  "why": "Concrete needle over lakefront"
+ },
+ {
+  "n": "Chichén Itzá",
+  "city": "Yucatán",
+  "country": "Mexico",
+  "cc": "MX",
+  "region": "North America",
+  "lat": 20.6843,
+  "lon": -88.5678,
+  "why": "El Castillo step pyramid"
+ },
+ {
+  "n": "Teotihuacán",
+  "city": "State of Mexico",
+  "country": "Mexico",
+  "cc": "MX",
+  "region": "North America",
+  "lat": 19.6925,
+  "lon": -98.8438,
+  "why": "Avenue of the Dead, sun pyramid"
+ },
+ {
+  "n": "Havana Malecón",
+  "city": "Havana",
+  "country": "Cuba",
+  "cc": "CU",
+  "region": "North America",
+  "lat": 23.14,
+  "lon": -82.38,
+  "why": "Seawall, faded facades, classic cars"
+ },
+ {
+  "n": "Antigua Guatemala",
+  "city": "Antigua",
+  "country": "Guatemala",
+  "cc": "GT",
+  "region": "North America",
+  "lat": 14.5586,
+  "lon": -90.7295,
+  "why": "Pastel colonial grid under volcano"
+ },
+ {
+  "n": "Miraflores Locks",
+  "city": "Panama City",
+  "country": "Panama",
+  "cc": "PA",
+  "region": "North America",
+  "lat": 8.9967,
+  "lon": -79.59,
+  "why": "Canal locks against modern skyline"
+ },
+ {
+  "n": "Walled city of Cartagena",
+  "city": "Cartagena",
+  "country": "Colombia",
+  "cc": "CO",
+  "region": "North America",
+  "lat": 10.4236,
+  "lon": -75.5478,
+  "why": "Colonial balconies, bougainvillea, ramparts"
+ },
+ {
+  "n": "Christ the Redeemer",
+  "city": "Rio de Janeiro",
+  "country": "Brazil",
+  "cc": "BR",
+  "region": "South America",
+  "lat": -22.9519,
+  "lon": -43.2105,
+  "why": "Statue above Sugarloaf and bay"
+ },
+ {
+  "n": "Copacabana",
+  "city": "Rio de Janeiro",
+  "country": "Brazil",
+  "cc": "BR",
+  "region": "South America",
+  "lat": -22.9711,
+  "lon": -43.1822,
+  "why": "Wave-pattern promenade, morros"
+ },
+ {
+  "n": "Machu Picchu",
+  "city": "Cusco",
+  "country": "Peru",
+  "cc": "PE",
+  "region": "South America",
+  "lat": -13.1631,
+  "lon": -72.545,
+  "why": "Terraces under Huayna Picchu"
+ },
+ {
+  "n": "Rainbow Mountain (Vinicunca)",
+  "city": "Cusco",
+  "country": "Peru",
+  "cc": "PE",
+  "region": "South America",
+  "lat": -13.869,
+  "lon": -71.303,
+  "why": "Banded mineral stripes at altitude"
+ },
+ {
+  "n": "Salar de Uyuni",
+  "city": "Potosí",
+  "country": "Bolivia",
+  "cc": "BO",
+  "region": "South America",
+  "lat": -20.1338,
+  "lon": -67.4891,
+  "why": "Mirror salt flat to the horizon"
+ },
+ {
+  "n": "Torres del Paine",
+  "city": "Magallanes",
+  "country": "Chile",
+  "cc": "CL",
+  "region": "South America",
+  "lat": -50.9423,
+  "lon": -72.988,
+  "why": "Granite towers over glacial lakes"
+ },
+ {
+  "n": "Moai at Rano Raraku",
+  "city": "Easter Island",
+  "country": "Chile",
+  "cc": "CL",
+  "region": "South America",
+  "lat": -27.1127,
+  "lon": -109.3497,
+  "why": "Monolithic heads on bare hillside"
+ },
+ {
+  "n": "Perito Moreno Glacier",
+  "city": "Santa Cruz",
+  "country": "Argentina",
+  "cc": "AR",
+  "region": "South America",
+  "lat": -50.4954,
+  "lon": -73.1377,
+  "why": "Blue calving glacier wall"
+ },
+ {
+  "n": "Caminito, La Boca",
+  "city": "Buenos Aires",
+  "country": "Argentina",
+  "cc": "AR",
+  "region": "South America",
+  "lat": -34.6395,
+  "lon": -58.3628,
+  "why": "Corrugated houses in primary colours"
+ },
+ {
+  "n": "Cotopaxi",
+  "city": "Cotopaxi",
+  "country": "Ecuador",
+  "cc": "EC",
+  "region": "South America",
+  "lat": -0.684,
+  "lon": -78.4378,
+  "why": "Snow-capped symmetrical volcano"
+ },
+ {
+  "n": "Angel Falls",
+  "city": "Bolívar",
+  "country": "Venezuela",
+  "cc": "VE",
+  "region": "South America",
+  "lat": 5.9701,
+  "lon": -62.5362,
+  "why": "Tallest waterfall, tepui cliff"
+ },
+ {
+  "n": "Cerro Monserrate",
+  "city": "Bogotá",
+  "country": "Colombia",
+  "cc": "CO",
+  "region": "South America",
+  "lat": 4.6058,
+  "lon": -74.0556,
+  "why": "Andean city filling a high basin"
+ },
+ {
+  "n": "Valparaíso hills",
+  "city": "Valparaíso",
+  "country": "Chile",
+  "cc": "CL",
+  "region": "South America",
+  "lat": -33.0472,
+  "lon": -71.6127,
+  "why": "Painted houses stacked on cliffs, funiculars"
+ },
+ {
+  "n": "Montevideo Rambla",
+  "city": "Montevideo",
+  "country": "Uruguay",
+  "cc": "UY",
+  "region": "South America",
+  "lat": -34.9187,
+  "lon": -56.1552,
+  "why": "Long river-sea promenade"
+ },
+ {
+  "n": "Sydney Opera House",
+  "city": "Sydney",
+  "country": "Australia",
+  "cc": "AU",
+  "region": "Oceania",
+  "lat": -33.8568,
+  "lon": 151.2153,
+  "why": "Shell vaults, Harbour Bridge"
+ },
+ {
+  "n": "Uluru",
+  "city": "Northern Territory",
+  "country": "Australia",
+  "cc": "AU",
+  "region": "Oceania",
+  "lat": -25.3444,
+  "lon": 131.0369,
+  "why": "Isolated red monolith"
+ },
+ {
+  "n": "Twelve Apostles",
+  "city": "Victoria",
+  "country": "Australia",
+  "cc": "AU",
+  "region": "Oceania",
+  "lat": -38.6662,
+  "lon": 143.1044,
+  "why": "Limestone stacks off Great Ocean Road"
+ },
+ {
+  "n": "Whitehaven Beach",
+  "city": "Queensland",
+  "country": "Australia",
+  "cc": "AU",
+  "region": "Oceania",
+  "lat": -20.2839,
+  "lon": 148.9611,
+  "why": "Silica sand swirls, turquoise inlet"
+ },
+ {
+  "n": "Milford Sound",
+  "city": "Fiordland",
+  "country": "New Zealand",
+  "cc": "NZ",
+  "region": "Oceania",
+  "lat": -44.6414,
+  "lon": 167.8974,
+  "why": "Mitre Peak rising sheer from water"
+ },
+ {
+  "n": "Tongariro Alpine Crossing",
+  "city": "Manawatū-Whanganui",
+  "country": "New Zealand",
+  "cc": "NZ",
+  "region": "Oceania",
+  "lat": -39.2969,
+  "lon": 175.5659,
+  "why": "Volcanic craters, emerald lakes"
+ },
+ {
+  "n": "Bora Bora lagoon",
+  "city": "Leeward Islands",
+  "country": "French Polynesia",
+  "cc": "PF",
+  "region": "Oceania",
+  "lat": -16.5004,
+  "lon": -151.7415,
+  "why": "Overwater bungalows, volcanic peak"
+ },
+ {
+  "n": "Burj Khalifa & Downtown",
+  "city": "Dubai",
+  "country": "United Arab Emirates",
+  "cc": "AE",
+  "region": "Middle East",
+  "lat": 25.1972,
+  "lon": 55.2744,
+  "why": "Tallest tower over desert megacity"
+ },
+ {
+  "n": "Sheikh Zayed Grand Mosque",
+  "city": "Abu Dhabi",
+  "country": "United Arab Emirates",
+  "cc": "AE",
+  "region": "Middle East",
+  "lat": 24.4128,
+  "lon": 54.475,
+  "why": "White marble domes, reflecting pools"
+ },
+ {
+  "n": "Petra Treasury",
+  "city": "Ma'an",
+  "country": "Jordan",
+  "cc": "JO",
+  "region": "Middle East",
+  "lat": 30.3222,
+  "lon": 35.4515,
+  "why": "Rock-cut facade at end of siq"
+ },
+ {
+  "n": "Wadi Rum",
+  "city": "Aqaba",
+  "country": "Jordan",
+  "cc": "JO",
+  "region": "Middle East",
+  "lat": 29.5765,
+  "lon": 35.4207,
+  "why": "Red sand, sandstone jebels"
+ },
+ {
+  "n": "Dome of the Rock",
+  "city": "Jerusalem",
+  "country": "Israel",
+  "cc": "IL",
+  "region": "Middle East",
+  "lat": 31.7781,
+  "lon": 35.2354,
+  "why": "Gold dome over old city"
+ },
+ {
+  "n": "Dead Sea shore",
+  "city": "Dead Sea",
+  "country": "Israel",
+  "cc": "IL",
+  "region": "Middle East",
+  "lat": 31.559,
+  "lon": 35.4732,
+  "why": "Salt formations, hazy escarpment"
+ },
+ {
+  "n": "Souq Waqif & skyline",
+  "city": "Doha",
+  "country": "Qatar",
+  "cc": "QA",
+  "region": "Middle East",
+  "lat": 25.2867,
+  "lon": 51.5333,
+  "why": "Restored souq against glass towers"
+ },
+ {
+  "n": "Flame Towers",
+  "city": "Baku",
+  "country": "Azerbaijan",
+  "cc": "AZ",
+  "region": "Middle East",
+  "lat": 40.3608,
+  "lon": 49.8352,
+  "why": "Three flame-shaped towers over Caspian"
+ },
+ {
+  "n": "Old Tbilisi & Narikala",
+  "city": "Tbilisi",
+  "country": "Georgia",
+  "cc": "GE",
+  "region": "Middle East",
+  "lat": 41.6934,
+  "lon": 44.8015,
+  "why": "Wooden balconies, sulphur baths, fortress"
+ },
+ {
+  "n": "Al-Ula & Hegra",
+  "city": "Medina Province",
+  "country": "Saudi Arabia",
+  "cc": "SA",
+  "region": "Middle East",
+  "lat": 26.7917,
+  "lon": 37.9542,
+  "why": "Nabataean tombs in sandstone desert"
+ },
+ {
+  "n": "Bondi Beach",
+  "city": "Sydney",
+  "country": "Australia",
+  "cc": "AU",
+  "region": "Oceania",
+  "lat": -33.8908,
+  "lon": 151.2743,
+  "why": "Crescent surf beach, pavilion"
+ },
+ {
+  "n": "Sydney Harbour Bridge",
+  "city": "Sydney",
+  "country": "Australia",
+  "cc": "AU",
+  "region": "Oceania",
+  "lat": -33.8523,
+  "lon": 151.2108,
+  "why": "Steel arch over harbour"
+ },
+ {
+  "n": "Three Sisters, Blue Mountains",
+  "city": "Katoomba",
+  "country": "Australia",
+  "cc": "AU",
+  "region": "Oceania",
+  "lat": -33.7325,
+  "lon": 150.3122,
+  "why": "Sandstone pinnacles, eucalypt haze"
+ },
+ {
+  "n": "Federation Square",
+  "city": "Melbourne",
+  "country": "Australia",
+  "cc": "AU",
+  "region": "Oceania",
+  "lat": -37.818,
+  "lon": 144.9691,
+  "why": "Angular facades, Flinders St station"
+ },
+ {
+  "n": "Kings Park",
+  "city": "Perth",
+  "country": "Australia",
+  "cc": "AU",
+  "region": "Oceania",
+  "lat": -31.9614,
+  "lon": 115.8318,
+  "why": "Bushland over Swan River skyline"
+ },
+ {
+  "n": "Cradle Mountain",
+  "city": "Tasmania",
+  "country": "Australia",
+  "cc": "AU",
+  "region": "Oceania",
+  "lat": -41.6383,
+  "lon": 145.9506,
+  "why": "Jagged dolerite over button grass"
+ },
+ {
+  "n": "Wineglass Bay",
+  "city": "Freycinet",
+  "country": "Australia",
+  "cc": "AU",
+  "region": "Oceania",
+  "lat": -42.1573,
+  "lon": 148.2967,
+  "why": "Perfect white arc, granite headlands"
+ },
+ {
+  "n": "Port Arthur",
+  "city": "Tasmania",
+  "country": "Australia",
+  "cc": "AU",
+  "region": "Oceania",
+  "lat": -43.1487,
+  "lon": 147.8507,
+  "why": "Convict ruins on inlet"
+ },
+ {
+  "n": "Kakadu wetlands",
+  "city": "Northern Territory",
+  "country": "Australia",
+  "cc": "AU",
+  "region": "Oceania",
+  "lat": -12.8375,
+  "lon": 132.838,
+  "why": "Escarpment, floodplain, paperbarks"
+ },
+ {
+  "n": "Great Ocean Road",
+  "city": "Victoria",
+  "country": "Australia",
+  "cc": "AU",
+  "region": "Oceania",
+  "lat": -38.68,
+  "lon": 143.39,
+  "why": "Cliff road above Southern Ocean"
+ },
+ {
+  "n": "Kangaroo Island Remarkable Rocks",
+  "city": "South Australia",
+  "country": "Australia",
+  "cc": "AU",
+  "region": "Oceania",
+  "lat": -36.0503,
+  "lon": 136.7539,
+  "why": "Wind-carved granite boulders"
+ },
+ {
+  "n": "Flinders Ranges",
+  "city": "South Australia",
+  "country": "Australia",
+  "cc": "AU",
+  "region": "Oceania",
+  "lat": -31.4333,
+  "lon": 138.6,
+  "why": "Red ranges, ancient folded rock"
+ },
+ {
+  "n": "Byron Bay lighthouse",
+  "city": "New South Wales",
+  "country": "Australia",
+  "cc": "AU",
+  "region": "Oceania",
+  "lat": -28.6383,
+  "lon": 153.6367,
+  "why": "White lighthouse on easternmost point"
+ },
+ {
+  "n": "The Pinnacles",
+  "city": "Nambung",
+  "country": "Australia",
+  "cc": "AU",
+  "region": "Oceania",
+  "lat": -30.6047,
+  "lon": 115.1583,
+  "why": "Limestone spires in yellow sand"
+ },
+ {
+  "n": "Parliament House",
+  "city": "Canberra",
+  "country": "Australia",
+  "cc": "AU",
+  "region": "Oceania",
+  "lat": -35.3081,
+  "lon": 149.1245,
+  "why": "Grass-roofed capitol, flagmast"
+ },
+ {
+  "n": "Daintree Rainforest",
+  "city": "Queensland",
+  "country": "Australia",
+  "cc": "AU",
+  "region": "Oceania",
+  "lat": -16.17,
+  "lon": 145.4185,
+  "why": "Oldest rainforest meeting reef coast"
+ },
+ {
+  "n": "Coober Pedy",
+  "city": "South Australia",
+  "country": "Australia",
+  "cc": "AU",
+  "region": "Oceania",
+  "lat": -29.0139,
+  "lon": 134.755,
+  "why": "Opal mine tailings, dugout town"
+ },
+ {
+  "n": "Queenstown & Lake Wakatipu",
+  "city": "Queenstown",
+  "country": "New Zealand",
+  "cc": "NZ",
+  "region": "Oceania",
+  "lat": -45.0312,
+  "lon": 168.6626,
+  "why": "Remarkables over turquoise lake"
+ },
+ {
+  "n": "Church of the Good Shepherd",
+  "city": "Lake Tekapo",
+  "country": "New Zealand",
+  "cc": "NZ",
+  "region": "Oceania",
+  "lat": -44.0043,
+  "lon": 170.4792,
+  "why": "Stone chapel, milky blue lake"
+ },
+ {
+  "n": "Aoraki / Mount Cook",
+  "city": "Canterbury",
+  "country": "New Zealand",
+  "cc": "NZ",
+  "region": "Oceania",
+  "lat": -43.734,
+  "lon": 170.096,
+  "why": "Highest peak, Hooker valley"
+ },
+ {
+  "n": "Rotorua geothermal",
+  "city": "Rotorua",
+  "country": "New Zealand",
+  "cc": "NZ",
+  "region": "Oceania",
+  "lat": -38.1368,
+  "lon": 176.2497,
+  "why": "Steam vents, sulphur terraces"
+ },
+ {
+  "n": "Sky Tower",
+  "city": "Auckland",
+  "country": "New Zealand",
+  "cc": "NZ",
+  "region": "Oceania",
+  "lat": -36.8485,
+  "lon": 174.7622,
+  "why": "Needle tower over harbour city"
+ },
+ {
+  "n": "Wellington waterfront",
+  "city": "Wellington",
+  "country": "New Zealand",
+  "cc": "NZ",
+  "region": "Oceania",
+  "lat": -41.2866,
+  "lon": 174.7756,
+  "why": "Timber wharves, wooden hill houses"
+ },
+ {
+  "n": "Cathedral Cove",
+  "city": "Coromandel",
+  "country": "New Zealand",
+  "cc": "NZ",
+  "region": "Oceania",
+  "lat": -36.828,
+  "lon": 175.79,
+  "why": "Arched sea cave on white sand"
+ },
+ {
+  "n": "Franz Josef Glacier",
+  "city": "West Coast",
+  "country": "New Zealand",
+  "cc": "NZ",
+  "region": "Oceania",
+  "lat": -43.4667,
+  "lon": 170.1833,
+  "why": "Glacier tongue into rainforest"
+ },
+ {
+  "n": "Napier art deco",
+  "city": "Napier",
+  "country": "New Zealand",
+  "cc": "NZ",
+  "region": "Oceania",
+  "lat": -39.4928,
+  "lon": 176.912,
+  "why": "1930s deco streetscape"
+ },
+ {
+  "n": "Hobbiton",
+  "city": "Matamata",
+  "country": "New Zealand",
+  "cc": "NZ",
+  "region": "Oceania",
+  "lat": -37.8721,
+  "lon": 175.6829,
+  "why": "Round doors in green hills"
+ },
+ {
+  "n": "Bay of Islands",
+  "city": "Paihia",
+  "country": "New Zealand",
+  "cc": "NZ",
+  "region": "Oceania",
+  "lat": -35.283,
+  "lon": 174.091,
+  "why": "Scattered green islands, yachts"
+ },
+ {
+  "n": "Dunedin Octagon",
+  "city": "Dunedin",
+  "country": "New Zealand",
+  "cc": "NZ",
+  "region": "Oceania",
+  "lat": -45.8742,
+  "lon": 170.5036,
+  "why": "Victorian Scottish civic centre"
+ },
+ {
+  "n": "Nouméa",
+  "city": "Grande Terre",
+  "country": "New Caledonia",
+  "cc": "NC",
+  "region": "Oceania",
+  "lat": -22.2758,
+  "lon": 166.458,
+  "why": "French-Melanesian lagoon capital"
+ },
+ {
+  "n": "Papeete waterfront",
+  "city": "Tahiti",
+  "country": "French Polynesia",
+  "cc": "PF",
+  "region": "Oceania",
+  "lat": -17.535,
+  "lon": -149.5696,
+  "why": "Volcanic peaks over Pacific harbour"
+ },
+ {
+  "n": "Port Vila",
+  "city": "Efate",
+  "country": "Vanuatu",
+  "cc": "VU",
+  "region": "Oceania",
+  "lat": -17.7333,
+  "lon": 168.3273,
+  "why": "Melanesian harbour town"
+ },
+ {
+  "n": "Suva",
+  "city": "Viti Levu",
+  "country": "Fiji",
+  "cc": "FJ",
+  "region": "Oceania",
+  "lat": -18.1416,
+  "lon": 178.4419,
+  "why": "Colonial-era Pacific capital"
+ },
+ {
+  "n": "Apia waterfront",
+  "city": "Upolu",
+  "country": "Samoa",
+  "cc": "WS",
+  "region": "Oceania",
+  "lat": -13.8333,
+  "lon": -171.7667,
+  "why": "Clock tower, fale, harbour"
+ },
+ {
+  "n": "Rarotonga coast road",
+  "city": "Avarua",
+  "country": "Cook Islands",
+  "cc": "CK",
+  "region": "Oceania",
+  "lat": -21.2075,
+  "lon": -159.7752,
+  "why": "Volcanic interior, reef lagoon"
+ },
+ {
+  "n": "Port Moresby",
+  "city": "National Capital",
+  "country": "Papua New Guinea",
+  "cc": "PG",
+  "region": "Oceania",
+  "lat": -9.4438,
+  "lon": 147.1803,
+  "why": "Harbour city, stilt villages"
+ },
+ {
+  "n": "Honiara",
+  "city": "Guadalcanal",
+  "country": "Solomon Islands",
+  "cc": "SB",
+  "region": "Oceania",
+  "lat": -9.4456,
+  "lon": 159.9729,
+  "why": "Tropical Pacific main street"
+ },
+ {
+  "n": "Hagåtña",
+  "city": "Guam",
+  "country": "Guam",
+  "cc": "GU",
+  "region": "Oceania",
+  "lat": 13.4757,
+  "lon": 144.7489,
+  "why": "Spanish fort, Pacific US territory"
+ },
+ {
+  "n": "Cape Point",
+  "city": "Western Cape",
+  "country": "South Africa",
+  "cc": "ZA",
+  "region": "Africa",
+  "lat": -34.3568,
+  "lon": 18.474,
+  "why": "Cliff lighthouse at continent's tip"
+ },
+ {
+  "n": "Bo-Kaap",
+  "city": "Cape Town",
+  "country": "South Africa",
+  "cc": "ZA",
+  "region": "Africa",
+  "lat": -33.921,
+  "lon": 18.4149,
+  "why": "Candy-coloured houses, cobbles"
+ },
+ {
+  "n": "Chapman's Peak Drive",
+  "city": "Cape Town",
+  "country": "South Africa",
+  "cc": "ZA",
+  "region": "Africa",
+  "lat": -34.0833,
+  "lon": 18.36,
+  "why": "Cliff-cut coastal road"
+ },
+ {
+  "n": "Boulders Beach",
+  "city": "Simon's Town",
+  "country": "South Africa",
+  "cc": "ZA",
+  "region": "Africa",
+  "lat": -34.1975,
+  "lon": 18.4517,
+  "why": "Granite boulders, penguin colony"
+ },
+ {
+  "n": "Blyde River Canyon",
+  "city": "Mpumalanga",
+  "country": "South Africa",
+  "cc": "ZA",
+  "region": "Africa",
+  "lat": -24.5833,
+  "lon": 30.8,
+  "why": "Green canyon, rondavel peaks"
+ },
+ {
+  "n": "Vilakazi Street, Soweto",
+  "city": "Johannesburg",
+  "country": "South Africa",
+  "cc": "ZA",
+  "region": "Africa",
+  "lat": -26.238,
+  "lon": 27.908,
+  "why": "Township street, matchbox houses"
+ },
+ {
+  "n": "Union Buildings",
+  "city": "Pretoria",
+  "country": "South Africa",
+  "cc": "ZA",
+  "region": "Africa",
+  "lat": -25.7406,
+  "lon": 28.2128,
+  "why": "Sandstone terraces, jacarandas"
+ },
+ {
+  "n": "Durban beachfront",
+  "city": "Durban",
+  "country": "South Africa",
+  "cc": "ZA",
+  "region": "Africa",
+  "lat": -29.85,
+  "lon": 31.04,
+  "why": "Promenade, Indian Ocean, high-rises"
+ },
+ {
+  "n": "Drakensberg Amphitheatre",
+  "city": "KwaZulu-Natal",
+  "country": "South Africa",
+  "cc": "ZA",
+  "region": "Africa",
+  "lat": -28.75,
+  "lon": 28.8833,
+  "why": "Basalt wall, tussock grass"
+ },
+ {
+  "n": "Knysna Heads",
+  "city": "Garden Route",
+  "country": "South Africa",
+  "cc": "ZA",
+  "region": "Africa",
+  "lat": -34.08,
+  "lon": 23.07,
+  "why": "Sandstone heads guarding lagoon"
+ },
+ {
+  "n": "Okavango Delta",
+  "city": "Ngamiland",
+  "country": "Botswana",
+  "cc": "BW",
+  "region": "Africa",
+  "lat": -19.2833,
+  "lon": 22.9,
+  "why": "Channels, reedbeds, floodplain"
+ },
+ {
+  "n": "Chobe riverfront",
+  "city": "Kasane",
+  "country": "Botswana",
+  "cc": "BW",
+  "region": "Africa",
+  "lat": -17.8,
+  "lon": 25.15,
+  "why": "Elephant country, river terraces"
+ },
+ {
+  "n": "Gaborone",
+  "city": "South-East",
+  "country": "Botswana",
+  "cc": "BW",
+  "region": "Africa",
+  "lat": -24.6282,
+  "lon": 25.9231,
+  "why": "Low-rise modern African capital"
+ },
+ {
+  "n": "Amboseli",
+  "city": "Kajiado",
+  "country": "Kenya",
+  "cc": "KE",
+  "region": "Africa",
+  "lat": -2.6527,
+  "lon": 37.2606,
+  "why": "Kilimanjaro over dusty plain"
+ },
+ {
+  "n": "Fort Jesus",
+  "city": "Mombasa",
+  "country": "Kenya",
+  "cc": "KE",
+  "region": "Africa",
+  "lat": -4.063,
+  "lon": 39.6797,
+  "why": "Portuguese coral-stone fort"
+ },
+ {
+  "n": "Diani Beach",
+  "city": "Kwale",
+  "country": "Kenya",
+  "cc": "KE",
+  "region": "Africa",
+  "lat": -4.2833,
+  "lon": 39.5833,
+  "why": "White sand, palms, dhows"
+ },
+ {
+  "n": "Hell's Gate",
+  "city": "Naivasha",
+  "country": "Kenya",
+  "cc": "KE",
+  "region": "Africa",
+  "lat": -0.8833,
+  "lon": 36.3167,
+  "why": "Red gorge, steam vents"
+ },
+ {
+  "n": "Kampala",
+  "city": "Central",
+  "country": "Uganda",
+  "cc": "UG",
+  "region": "Africa",
+  "lat": 0.3476,
+  "lon": 32.5825,
+  "why": "Hills, boda-bodas, mosque dome"
+ },
+ {
+  "n": "Entebbe lakefront",
+  "city": "Wakiso",
+  "country": "Uganda",
+  "cc": "UG",
+  "region": "Africa",
+  "lat": 0.0512,
+  "lon": 32.4637,
+  "why": "Lake Victoria shore"
+ },
+ {
+  "n": "Kigali",
+  "city": "Kigali",
+  "country": "Rwanda",
+  "cc": "RW",
+  "region": "Africa",
+  "lat": -1.9441,
+  "lon": 30.0619,
+  "why": "Clean hillside capital"
+ },
+ {
+  "n": "Lake Kivu",
+  "city": "Rubavu",
+  "country": "Rwanda",
+  "cc": "RW",
+  "region": "Africa",
+  "lat": -1.6833,
+  "lon": 29.25,
+  "why": "Rift lake, terraced hills"
+ },
+ {
+  "n": "Independence Square",
+  "city": "Accra",
+  "country": "Ghana",
+  "cc": "GH",
+  "region": "Africa",
+  "lat": 5.5479,
+  "lon": -0.1917,
+  "why": "Black Star Gate, parade ground"
+ },
+ {
+  "n": "Elmina Castle",
+  "city": "Elmina",
+  "country": "Ghana",
+  "cc": "GH",
+  "region": "Africa",
+  "lat": 5.0847,
+  "lon": -1.3508,
+  "why": "White slave fort on fishing harbour"
+ },
+ {
+  "n": "Kakum canopy walk",
+  "city": "Central",
+  "country": "Ghana",
+  "cc": "GH",
+  "region": "Africa",
+  "lat": 5.35,
+  "lon": -1.3833,
+  "why": "Rope bridges over rainforest"
+ },
+ {
+  "n": "Lekki-Ikoyi Bridge",
+  "city": "Lagos",
+  "country": "Nigeria",
+  "cc": "NG",
+  "region": "Africa",
+  "lat": 6.44,
+  "lon": 3.44,
+  "why": "Cable-stayed bridge, lagoon city"
+ },
+ {
+  "n": "Zuma Rock",
+  "city": "Niger State",
+  "country": "Nigeria",
+  "cc": "NG",
+  "region": "Africa",
+  "lat": 9.1281,
+  "lon": 7.2314,
+  "why": "Monolith beside the highway"
+ },
+ {
+  "n": "Aso Rock & city",
+  "city": "Abuja",
+  "country": "Nigeria",
+  "cc": "NG",
+  "region": "Africa",
+  "lat": 9.0765,
+  "lon": 7.3986,
+  "why": "Planned capital under granite dome"
+ },
+ {
+  "n": "African Renaissance Monument",
+  "city": "Dakar",
+  "country": "Senegal",
+  "cc": "SN",
+  "region": "Africa",
+  "lat": 14.7203,
+  "lon": -17.4869,
+  "why": "Giant bronze figures on hill"
+ },
+ {
+  "n": "Gorée Island",
+  "city": "Dakar",
+  "country": "Senegal",
+  "cc": "SN",
+  "region": "Africa",
+  "lat": 14.6672,
+  "lon": -17.3986,
+  "why": "Ochre colonial houses, Atlantic"
+ },
+ {
+  "n": "Lac Rose",
+  "city": "Dakar",
+  "country": "Senegal",
+  "cc": "SN",
+  "region": "Africa",
+  "lat": 14.8386,
+  "lon": -17.235,
+  "why": "Pink salt lake, salt heaps"
+ },
+ {
+  "n": "Ngorongoro Crater rim",
+  "city": "Arusha",
+  "country": "Tanzania",
+  "cc": "TZ",
+  "region": "Africa",
+  "lat": -3.1667,
+  "lon": 35.5833,
+  "why": "Caldera floor from the rim"
+ },
+ {
+  "n": "Dar es Salaam waterfront",
+  "city": "Dar es Salaam",
+  "country": "Tanzania",
+  "cc": "TZ",
+  "region": "Africa",
+  "lat": -6.8161,
+  "lon": 39.2803,
+  "why": "Indian Ocean port skyline"
+ },
+ {
+  "n": "Khan el-Khalili",
+  "city": "Cairo",
+  "country": "Egypt",
+  "cc": "EG",
+  "region": "Africa",
+  "lat": 30.0477,
+  "lon": 31.2622,
+  "why": "Mamluk bazaar lanes, minarets"
+ },
+ {
+  "n": "Karnak Temple",
+  "city": "Luxor",
+  "country": "Egypt",
+  "cc": "EG",
+  "region": "Africa",
+  "lat": 25.7188,
+  "lon": 32.6573,
+  "why": "Hypostyle columns, obelisks"
+ },
+ {
+  "n": "Aswan Nile",
+  "city": "Aswan",
+  "country": "Egypt",
+  "cc": "EG",
+  "region": "Africa",
+  "lat": 24.0889,
+  "lon": 32.8998,
+  "why": "Feluccas, granite islands, dunes"
+ },
+ {
+  "n": "Alexandria Corniche",
+  "city": "Alexandria",
+  "country": "Egypt",
+  "cc": "EG",
+  "region": "Africa",
+  "lat": 31.21,
+  "lon": 29.89,
+  "why": "Mediterranean seafront curve"
+ },
+ {
+  "n": "Sidi Bou Said",
+  "city": "Tunis",
+  "country": "Tunisia",
+  "cc": "TN",
+  "region": "Africa",
+  "lat": 36.8708,
+  "lon": 10.3417,
+  "why": "Blue-and-white clifftop village"
+ },
+ {
+  "n": "Carthage ruins",
+  "city": "Tunis",
+  "country": "Tunisia",
+  "cc": "TN",
+  "region": "Africa",
+  "lat": 36.8528,
+  "lon": 10.3233,
+  "why": "Punic-Roman ruins above sea"
+ },
+ {
+  "n": "El Djem amphitheatre",
+  "city": "Mahdia",
+  "country": "Tunisia",
+  "cc": "TN",
+  "region": "Africa",
+  "lat": 35.2967,
+  "lon": 10.7069,
+  "why": "Roman arena in a small town"
+ },
+ {
+  "n": "Tunis medina",
+  "city": "Tunis",
+  "country": "Tunisia",
+  "cc": "TN",
+  "region": "Africa",
+  "lat": 36.7972,
+  "lon": 10.1708,
+  "why": "Souk arcades, whitewash"
+ },
+ {
+  "n": "Windhoek",
+  "city": "Khomas",
+  "country": "Namibia",
+  "cc": "NA",
+  "region": "Africa",
+  "lat": -22.5609,
+  "lon": 17.0658,
+  "why": "German colonial buildings, dry hills"
+ },
+ {
+  "n": "Swakopmund",
+  "city": "Erongo",
+  "country": "Namibia",
+  "cc": "NA",
+  "region": "Africa",
+  "lat": -22.6792,
+  "lon": 14.5272,
+  "why": "Bavarian architecture meets desert"
+ },
+ {
+  "n": "Spitzkoppe",
+  "city": "Erongo",
+  "country": "Namibia",
+  "cc": "NA",
+  "region": "Africa",
+  "lat": -21.8333,
+  "lon": 15.1944,
+  "why": "Granite inselberg on gravel plain"
+ },
+ {
+  "n": "Fish River Canyon",
+  "city": "ǁKaras",
+  "country": "Namibia",
+  "cc": "NA",
+  "region": "Africa",
+  "lat": -27.5833,
+  "lon": 17.6167,
+  "why": "Second-largest canyon, arid"
+ },
+ {
+  "n": "Maseru",
+  "city": "Maseru",
+  "country": "Lesotho",
+  "cc": "LS",
+  "region": "Africa",
+  "lat": -29.3151,
+  "lon": 27.4869,
+  "why": "Basotho hat roofs, highland capital"
+ },
+ {
+  "n": "Sani Pass",
+  "city": "Mokhotlong",
+  "country": "Lesotho",
+  "cc": "LS",
+  "region": "Africa",
+  "lat": -29.5872,
+  "lon": 29.2872,
+  "why": "Switchback pass, thatched huts"
+ },
+ {
+  "n": "Mbabane",
+  "city": "Hhohho",
+  "country": "Eswatini",
+  "cc": "SZ",
+  "region": "Africa",
+  "lat": -26.3054,
+  "lon": 31.1367,
+  "why": "Green highland capital"
+ },
+ {
+  "n": "Antananarivo",
+  "city": "Analamanga",
+  "country": "Madagascar",
+  "cc": "MG",
+  "region": "Africa",
+  "lat": -18.8792,
+  "lon": 47.5079,
+  "why": "Hill city, tiered brick houses"
+ },
+ {
+  "n": "Cirque de Mafate",
+  "city": "Réunion",
+  "country": "Réunion",
+  "cc": "RE",
+  "region": "Africa",
+  "lat": -21.05,
+  "lon": 55.45,
+  "why": "Volcanic amphitheatre, no roads"
+ },
+ {
+  "n": "Piton de la Fournaise",
+  "city": "Réunion",
+  "country": "Réunion",
+  "cc": "RE",
+  "region": "Africa",
+  "lat": -21.244,
+  "lon": 55.708,
+  "why": "Black lava shield volcano"
+ },
+ {
+  "n": "Livingstone",
+  "city": "Southern",
+  "country": "Zambia",
+  "cc": "ZM",
+  "region": "Africa",
+  "lat": -17.8419,
+  "lon": 25.8543,
+  "why": "Colonial town near the falls"
+ },
+ {
+  "n": "Harare",
+  "city": "Harare",
+  "country": "Zimbabwe",
+  "cc": "ZW",
+  "region": "Africa",
+  "lat": -17.8252,
+  "lon": 31.0335,
+  "why": "Jacaranda avenues, modernist blocks"
+ },
+ {
+  "n": "Blantyre",
+  "city": "Southern",
+  "country": "Malawi",
+  "cc": "MW",
+  "region": "Africa",
+  "lat": -15.7861,
+  "lon": 35.0058,
+  "why": "Highland commercial town"
+ },
+ {
+  "n": "Maputo",
+  "city": "Maputo",
+  "country": "Mozambique",
+  "cc": "MZ",
+  "region": "Africa",
+  "lat": -25.9692,
+  "lon": 32.5732,
+  "why": "Portuguese modernism, Indian Ocean"
+ },
+ {
+  "n": "Sugarloaf Mountain",
+  "city": "Rio de Janeiro",
+  "country": "Brazil",
+  "cc": "BR",
+  "region": "South America",
+  "lat": -22.9486,
+  "lon": -43.1566,
+  "why": "Granite dome over Guanabara Bay"
+ },
+ {
+  "n": "Selarón Steps",
+  "city": "Rio de Janeiro",
+  "country": "Brazil",
+  "cc": "BR",
+  "region": "South America",
+  "lat": -22.9152,
+  "lon": -43.1794,
+  "why": "Tiled staircase, Lapa"
+ },
+ {
+  "n": "Avenida Paulista",
+  "city": "São Paulo",
+  "country": "Brazil",
+  "cc": "BR",
+  "region": "South America",
+  "lat": -23.5614,
+  "lon": -46.6558,
+  "why": "Dense high-rise commercial spine"
+ },
+ {
+  "n": "Pelourinho",
+  "city": "Salvador",
+  "country": "Brazil",
+  "cc": "BR",
+  "region": "South America",
+  "lat": -12.9714,
+  "lon": -38.5108,
+  "why": "Pastel baroque colonial centre"
+ },
+ {
+  "n": "National Congress",
+  "city": "Brasília",
+  "country": "Brazil",
+  "cc": "BR",
+  "region": "South America",
+  "lat": -15.7997,
+  "lon": -47.8645,
+  "why": "Niemeyer bowl-and-dome modernism"
+ },
+ {
+  "n": "Ouro Preto",
+  "city": "Minas Gerais",
+  "country": "Brazil",
+  "cc": "BR",
+  "region": "South America",
+  "lat": -20.3856,
+  "lon": -43.5035,
+  "why": "Baroque churches on steep cobbles"
+ },
+ {
+  "n": "Manaus & Rio Negro",
+  "city": "Amazonas",
+  "country": "Brazil",
+  "cc": "BR",
+  "region": "South America",
+  "lat": -3.119,
+  "lon": -60.0217,
+  "why": "Opera house, river port, jungle"
+ },
+ {
+  "n": "Obelisco",
+  "city": "Buenos Aires",
+  "country": "Argentina",
+  "cc": "AR",
+  "region": "South America",
+  "lat": -34.6037,
+  "lon": -58.3816,
+  "why": "White obelisk, widest avenue"
+ },
+ {
+  "n": "Recoleta Cemetery",
+  "city": "Buenos Aires",
+  "country": "Argentina",
+  "cc": "AR",
+  "region": "South America",
+  "lat": -34.5875,
+  "lon": -58.3936,
+  "why": "City of marble mausoleums"
+ },
+ {
+  "n": "Ushuaia",
+  "city": "Tierra del Fuego",
+  "country": "Argentina",
+  "cc": "AR",
+  "region": "South America",
+  "lat": -54.8019,
+  "lon": -68.303,
+  "why": "Southernmost city under peaks"
+ },
+ {
+  "n": "Bariloche & Nahuel Huapi",
+  "city": "Río Negro",
+  "country": "Argentina",
+  "cc": "AR",
+  "region": "South America",
+  "lat": -41.1335,
+  "lon": -71.3103,
+  "why": "Alpine-style town, lake, Andes"
+ },
+ {
+  "n": "Quebrada de Humahuaca",
+  "city": "Jujuy",
+  "country": "Argentina",
+  "cc": "AR",
+  "region": "South America",
+  "lat": -23.2044,
+  "lon": -65.3494,
+  "why": "Striped mineral valley walls"
+ },
+ {
+  "n": "Fitz Roy, El Chaltén",
+  "city": "Santa Cruz",
+  "country": "Argentina",
+  "cc": "AR",
+  "region": "South America",
+  "lat": -49.3306,
+  "lon": -72.8864,
+  "why": "Granite spires above steppe"
+ },
+ {
+  "n": "Mendoza vineyards",
+  "city": "Mendoza",
+  "country": "Argentina",
+  "cc": "AR",
+  "region": "South America",
+  "lat": -33,
+  "lon": -68.85,
+  "why": "Vine rows against snowy Andes"
+ },
+ {
+  "n": "Valle de la Luna",
+  "city": "Atacama",
+  "country": "Chile",
+  "cc": "CL",
+  "region": "South America",
+  "lat": -22.9167,
+  "lon": -68.2833,
+  "why": "Salt-crusted desert badlands"
+ },
+ {
+  "n": "Plaza de Armas",
+  "city": "Santiago",
+  "country": "Chile",
+  "cc": "CL",
+  "region": "South America",
+  "lat": -33.4372,
+  "lon": -70.6506,
+  "why": "Cathedral square under Andes"
+ },
+ {
+  "n": "Palafitos of Castro",
+  "city": "Chiloé",
+  "country": "Chile",
+  "cc": "CL",
+  "region": "South America",
+  "lat": -42.48,
+  "lon": -73.76,
+  "why": "Stilt houses over tidal water"
+ },
+ {
+  "n": "Puerto Varas & Osorno",
+  "city": "Los Lagos",
+  "country": "Chile",
+  "cc": "CL",
+  "region": "South America",
+  "lat": -41.3195,
+  "lon": -72.9854,
+  "why": "Conical volcano over lake town"
+ },
+ {
+  "n": "Miraflores clifftop",
+  "city": "Lima",
+  "country": "Peru",
+  "cc": "PE",
+  "region": "South America",
+  "lat": -12.13,
+  "lon": -77.03,
+  "why": "Pacific cliffs, paragliders, malecón"
+ },
+ {
+  "n": "Plaza de Armas",
+  "city": "Arequipa",
+  "country": "Peru",
+  "cc": "PE",
+  "region": "South America",
+  "lat": -16.3989,
+  "lon": -71.535,
+  "why": "White sillar arcades, El Misti"
+ },
+ {
+  "n": "Colca Canyon",
+  "city": "Arequipa",
+  "country": "Peru",
+  "cc": "PE",
+  "region": "South America",
+  "lat": -15.61,
+  "lon": -71.86,
+  "why": "Terraced canyon, condors"
+ },
+ {
+  "n": "Lake Titicaca",
+  "city": "Puno",
+  "country": "Peru",
+  "cc": "PE",
+  "region": "South America",
+  "lat": -15.8402,
+  "lon": -69.0219,
+  "why": "Reed islands, high blue lake"
+ },
+ {
+  "n": "Sacsayhuamán",
+  "city": "Cusco",
+  "country": "Peru",
+  "cc": "PE",
+  "region": "South America",
+  "lat": -13.5093,
+  "lon": -71.9819,
+  "why": "Cyclopean Inca stonework"
+ },
+ {
+  "n": "Teleférico over La Paz",
+  "city": "La Paz",
+  "country": "Bolivia",
+  "cc": "BO",
+  "region": "South America",
+  "lat": -16.4955,
+  "lon": -68.1336,
+  "why": "Cable cars over bowl city, Illimani"
+ },
+ {
+  "n": "Copacabana, Titicaca",
+  "city": "La Paz",
+  "country": "Bolivia",
+  "cc": "BO",
+  "region": "South America",
+  "lat": -16.1667,
+  "lon": -69.0833,
+  "why": "Basilica, altiplano lakeshore"
+ },
+ {
+  "n": "Potosí & Cerro Rico",
+  "city": "Potosí",
+  "country": "Bolivia",
+  "cc": "BO",
+  "region": "South America",
+  "lat": -19.5836,
+  "lon": -65.7531,
+  "why": "Silver mountain over colonial town"
+ },
+ {
+  "n": "Quito Old Town",
+  "city": "Pichincha",
+  "country": "Ecuador",
+  "cc": "EC",
+  "region": "South America",
+  "lat": -0.2201,
+  "lon": -78.5123,
+  "why": "Andean baroque, volcano ring"
+ },
+ {
+  "n": "Mitad del Mundo",
+  "city": "Pichincha",
+  "country": "Ecuador",
+  "cc": "EC",
+  "region": "South America",
+  "lat": -0.0022,
+  "lon": -78.4558,
+  "why": "Equator monument"
+ },
+ {
+  "n": "Cuenca",
+  "city": "Azuay",
+  "country": "Ecuador",
+  "cc": "EC",
+  "region": "South America",
+  "lat": -2.9001,
+  "lon": -79.0059,
+  "why": "Blue-domed cathedral, river town"
+ },
+ {
+  "n": "Comuna 13",
+  "city": "Medellín",
+  "country": "Colombia",
+  "cc": "CO",
+  "region": "South America",
+  "lat": 6.25,
+  "lon": -75.6167,
+  "why": "Hillside murals, outdoor escalators"
+ },
+ {
+  "n": "El Peñón de Guatapé",
+  "city": "Antioquia",
+  "country": "Colombia",
+  "cc": "CO",
+  "region": "South America",
+  "lat": 6.2325,
+  "lon": -75.177,
+  "why": "Monolith with zigzag stair, lakes"
+ },
+ {
+  "n": "Cocora Valley",
+  "city": "Salento",
+  "country": "Colombia",
+  "cc": "CO",
+  "region": "South America",
+  "lat": 4.6372,
+  "lon": -75.4869,
+  "why": "Tallest wax palms in cloud forest"
+ },
+ {
+  "n": "La Candelaria",
+  "city": "Bogotá",
+  "country": "Colombia",
+  "cc": "CO",
+  "region": "South America",
+  "lat": 4.5964,
+  "lon": -74.0731,
+  "why": "Painted colonial balconies"
+ },
+ {
+  "n": "Villa de Leyva",
+  "city": "Boyacá",
+  "country": "Colombia",
+  "cc": "CO",
+  "region": "South America",
+  "lat": 5.6339,
+  "lon": -73.525,
+  "why": "Vast cobbled white-washed plaza"
+ },
+ {
+  "n": "Punta del Este",
+  "city": "Maldonado",
+  "country": "Uruguay",
+  "cc": "UY",
+  "region": "South America",
+  "lat": -34.9633,
+  "lon": -54.95,
+  "why": "La Mano sculpture, Atlantic resort"
+ },
+ {
+  "n": "Colonia del Sacramento",
+  "city": "Colonia",
+  "country": "Uruguay",
+  "cc": "UY",
+  "region": "South America",
+  "lat": -34.4726,
+  "lon": -57.8442,
+  "why": "Portuguese cobbles, river plate"
+ },
+ {
+  "n": "Asunción waterfront",
+  "city": "Asunción",
+  "country": "Paraguay",
+  "cc": "PY",
+  "region": "South America",
+  "lat": -25.2637,
+  "lon": -57.5759,
+  "why": "Panteón, river port capital"
+ },
+ {
+  "n": "Encarnación",
+  "city": "Itapúa",
+  "country": "Paraguay",
+  "cc": "PY",
+  "region": "South America",
+  "lat": -27.3306,
+  "lon": -55.8667,
+  "why": "Beach city on the Paraná"
+ },
+ {
+  "n": "Georgetown",
+  "city": "Demerara-Mahaica",
+  "country": "Guyana",
+  "cc": "GY",
+  "region": "South America",
+  "lat": 6.8013,
+  "lon": -58.1551,
+  "why": "Wooden colonial architecture"
+ },
+ {
+  "n": "Paramaribo",
+  "city": "Paramaribo",
+  "country": "Suriname",
+  "cc": "SR",
+  "region": "South America",
+  "lat": 5.852,
+  "lon": -55.2038,
+  "why": "Dutch timber townhouses"
+ },
+ {
+  "n": "Cayenne",
+  "city": "Cayenne",
+  "country": "French Guiana",
+  "cc": "GF",
+  "region": "South America",
+  "lat": 4.9224,
+  "lon": -52.3135,
+  "why": "Creole shutters, tropical France"
+ },
+ {
+  "n": "Palm Jumeirah",
+  "city": "Dubai",
+  "country": "United Arab Emirates",
+  "cc": "AE",
+  "region": "Middle East",
+  "lat": 25.1124,
+  "lon": 55.139,
+  "why": "Artificial palm island fronds"
+ },
+ {
+  "n": "Dubai Marina",
+  "city": "Dubai",
+  "country": "United Arab Emirates",
+  "cc": "AE",
+  "region": "Middle East",
+  "lat": 25.0805,
+  "lon": 55.1403,
+  "why": "Canyon of curved towers"
+ },
+ {
+  "n": "Louvre Abu Dhabi",
+  "city": "Abu Dhabi",
+  "country": "United Arab Emirates",
+  "cc": "AE",
+  "region": "Middle East",
+  "lat": 24.5339,
+  "lon": 54.398,
+  "why": "Perforated dome over water"
+ },
+ {
+  "n": "Jaffa old port",
+  "city": "Tel Aviv",
+  "country": "Israel",
+  "cc": "IL",
+  "region": "Middle East",
+  "lat": 32.0537,
+  "lon": 34.752,
+  "why": "Stone alleys above the sea"
+ },
+ {
+  "n": "Baháʼí Gardens",
+  "city": "Haifa",
+  "country": "Israel",
+  "cc": "IL",
+  "region": "Middle East",
+  "lat": 32.8156,
+  "lon": 34.9892,
+  "why": "Terraced gardens down Carmel"
+ },
+ {
+  "n": "Makhtesh Ramon",
+  "city": "Negev",
+  "country": "Israel",
+  "cc": "IL",
+  "region": "Middle East",
+  "lat": 30.61,
+  "lon": 34.8,
+  "why": "Erosion crater, layered desert"
+ },
+ {
+  "n": "Caesarea",
+  "city": "Haifa District",
+  "country": "Israel",
+  "cc": "IL",
+  "region": "Middle East",
+  "lat": 32.5,
+  "lon": 34.8917,
+  "why": "Roman theatre and aqueduct on sand"
+ },
+ {
+  "n": "Amman Citadel",
+  "city": "Amman",
+  "country": "Jordan",
+  "cc": "JO",
+  "region": "Middle East",
+  "lat": 31.9544,
+  "lon": 35.9344,
+  "why": "Roman temple above white city"
+ },
+ {
+  "n": "Jerash",
+  "city": "Jerash",
+  "country": "Jordan",
+  "cc": "JO",
+  "region": "Middle East",
+  "lat": 32.2811,
+  "lon": 35.8919,
+  "why": "Oval colonnaded forum"
+ },
+ {
+  "n": "Aqaba",
+  "city": "Aqaba",
+  "country": "Jordan",
+  "cc": "JO",
+  "region": "Middle East",
+  "lat": 29.5321,
+  "lon": 35.0063,
+  "why": "Red Sea gulf, desert mountains"
+ },
+ {
+  "n": "Pamukkale",
+  "city": "Denizli",
+  "country": "Turkey",
+  "cc": "TR",
+  "region": "Middle East",
+  "lat": 37.9203,
+  "lon": 29.1211,
+  "why": "White travertine terraces"
+ },
+ {
+  "n": "Ephesus",
+  "city": "İzmir",
+  "country": "Turkey",
+  "cc": "TR",
+  "region": "Middle East",
+  "lat": 37.9395,
+  "lon": 27.3417,
+  "why": "Celsus Library, marble street"
+ },
+ {
+  "n": "Antalya old harbour",
+  "city": "Antalya",
+  "country": "Turkey",
+  "cc": "TR",
+  "region": "Middle East",
+  "lat": 36.8841,
+  "lon": 30.7056,
+  "why": "Cliff harbour, Taurus mountains"
+ },
+ {
+  "n": "Bosphorus & Ortaköy",
+  "city": "Istanbul",
+  "country": "Turkey",
+  "cc": "TR",
+  "region": "Middle East",
+  "lat": 41.0473,
+  "lon": 29.027,
+  "why": "Mosque under suspension bridge"
+ },
+ {
+  "n": "Mount Nemrut",
+  "city": "Adıyaman",
+  "country": "Turkey",
+  "cc": "TR",
+  "region": "Middle East",
+  "lat": 37.9806,
+  "lon": 38.7411,
+  "why": "Toppled stone heads on summit"
+ },
+ {
+  "n": "Doha Corniche",
+  "city": "Doha",
+  "country": "Qatar",
+  "cc": "QA",
+  "region": "Middle East",
+  "lat": 25.31,
+  "lon": 51.53,
+  "why": "Crescent bay, dhows, skyline"
+ },
+ {
+  "n": "Katara Cultural Village",
+  "city": "Doha",
+  "country": "Qatar",
+  "cc": "QA",
+  "region": "Middle East",
+  "lat": 25.3594,
+  "lon": 51.525,
+  "why": "Pigeon towers, amphitheatre"
+ },
+ {
+  "n": "Sultan Qaboos Grand Mosque",
+  "city": "Muscat",
+  "country": "Oman",
+  "cc": "OM",
+  "region": "Middle East",
+  "lat": 23.5844,
+  "lon": 58.3878,
+  "why": "Sandstone arcades, single minaret"
+ },
+ {
+  "n": "Nizwa Fort",
+  "city": "Nizwa",
+  "country": "Oman",
+  "cc": "OM",
+  "region": "Middle East",
+  "lat": 22.9333,
+  "lon": 57.5333,
+  "why": "Massive round tower, date palms"
+ },
+ {
+  "n": "Wahiba Sands",
+  "city": "Ash Sharqiyah",
+  "country": "Oman",
+  "cc": "OM",
+  "region": "Middle East",
+  "lat": 21.95,
+  "lon": 58.75,
+  "why": "Long orange dune ridges"
+ },
+ {
+  "n": "Muttrah Corniche",
+  "city": "Muscat",
+  "country": "Oman",
+  "cc": "OM",
+  "region": "Middle East",
+  "lat": 23.6208,
+  "lon": 58.5922,
+  "why": "Whitewashed port under jagged hills"
+ },
+ {
+  "n": "Kingdom Centre",
+  "city": "Riyadh",
+  "country": "Saudi Arabia",
+  "cc": "SA",
+  "region": "Middle East",
+  "lat": 24.7114,
+  "lon": 46.6745,
+  "why": "Inverted-arch skyscraper"
+ },
+ {
+  "n": "Al-Balad",
+  "city": "Jeddah",
+  "country": "Saudi Arabia",
+  "cc": "SA",
+  "region": "Middle East",
+  "lat": 21.4839,
+  "lon": 39.1867,
+  "why": "Coral houses, roshan screens"
+ },
+ {
+  "n": "Manama skyline",
+  "city": "Manama",
+  "country": "Bahrain",
+  "cc": "BH",
+  "region": "Middle East",
+  "lat": 26.2285,
+  "lon": 50.586,
+  "why": "Twisted towers on reclaimed shore"
+ },
+ {
+  "n": "Bahrain Fort",
+  "city": "Karbabad",
+  "country": "Bahrain",
+  "cc": "BH",
+  "region": "Middle East",
+  "lat": 26.2333,
+  "lon": 50.5208,
+  "why": "Portuguese fort, palm groves"
+ },
+ {
+  "n": "Kuwait Towers",
+  "city": "Kuwait City",
+  "country": "Kuwait",
+  "cc": "KW",
+  "region": "Middle East",
+  "lat": 29.3897,
+  "lon": 48,
+  "why": "Blue-sphere water towers"
+ },
+ {
+  "n": "Beirut Corniche",
+  "city": "Beirut",
+  "country": "Lebanon",
+  "cc": "LB",
+  "region": "Middle East",
+  "lat": 33.9,
+  "lon": 35.48,
+  "why": "Pigeon Rocks, seafront promenade"
+ },
+ {
+  "n": "Byblos harbour",
+  "city": "Byblos",
+  "country": "Lebanon",
+  "cc": "LB",
+  "region": "Middle East",
+  "lat": 34.1211,
+  "lon": 35.645,
+  "why": "Crusader castle over tiny port"
+ },
+ {
+  "n": "Baalbek",
+  "city": "Baalbek",
+  "country": "Lebanon",
+  "cc": "LB",
+  "region": "Middle East",
+  "lat": 34.0069,
+  "lon": 36.2039,
+  "why": "Colossal Roman temple columns"
+ },
+ {
+  "n": "Cascade",
+  "city": "Yerevan",
+  "country": "Armenia",
+  "cc": "AM",
+  "region": "Middle East",
+  "lat": 40.1897,
+  "lon": 44.5153,
+  "why": "Stone stairway, Ararat beyond"
+ },
+ {
+  "n": "Garni Temple",
+  "city": "Kotayk",
+  "country": "Armenia",
+  "cc": "AM",
+  "region": "Middle East",
+  "lat": 40.1122,
+  "lon": 44.73,
+  "why": "Hellenic colonnade on a gorge"
+ },
+ {
+  "n": "Kazbegi & Gergeti",
+  "city": "Mtskheta-Mtianeti",
+  "country": "Georgia",
+  "cc": "GE",
+  "region": "Middle East",
+  "lat": 42.662,
+  "lon": 44.62,
+  "why": "Lone church under snow cone"
+ },
+ {
+  "n": "Icherisheher",
+  "city": "Baku",
+  "country": "Azerbaijan",
+  "cc": "AZ",
+  "region": "Middle East",
+  "lat": 40.3667,
+  "lon": 49.8352,
+  "why": "Walled old city, Maiden Tower"
+ },
+ {
+  "n": "Nicosia old city",
+  "city": "Nicosia",
+  "country": "Cyprus",
+  "cc": "CY",
+  "region": "Middle East",
+  "lat": 35.1725,
+  "lon": 33.3644,
+  "why": "Venetian walls, divided capital"
+ },
+ {
+  "n": "Dotonbori",
+  "city": "Osaka",
+  "country": "Japan",
+  "cc": "JP",
+  "region": "Asia",
+  "lat": 34.6687,
+  "lon": 135.5013,
+  "why": "Neon canal, running-man sign"
+ },
+ {
+  "n": "Nara deer park",
+  "city": "Nara",
+  "country": "Japan",
+  "cc": "JP",
+  "region": "Asia",
+  "lat": 34.6851,
+  "lon": 135.843,
+  "why": "Free-roaming deer, great hall"
+ },
+ {
+  "n": "Gamcheon Culture Village",
+  "city": "Busan",
+  "country": "South Korea",
+  "cc": "KR",
+  "region": "Asia",
+  "lat": 35.0975,
+  "lon": 129.0107,
+  "why": "Pastel houses stacked on hillside"
+ },
+ {
+  "n": "Hawa Mahal",
+  "city": "Jaipur",
+  "country": "India",
+  "cc": "IN",
+  "region": "Asia",
+  "lat": 26.9239,
+  "lon": 75.8267,
+  "why": "Pink honeycomb facade"
+ },
+ {
+  "n": "Varanasi ghats",
+  "city": "Uttar Pradesh",
+  "country": "India",
+  "cc": "IN",
+  "region": "Asia",
+  "lat": 25.307,
+  "lon": 83.01,
+  "why": "Stepped riverfront, pilgrims"
+ },
+ {
+  "n": "Golden Temple",
+  "city": "Amritsar",
+  "country": "India",
+  "cc": "IN",
+  "region": "Asia",
+  "lat": 31.62,
+  "lon": 74.8765,
+  "why": "Gilded shrine in a sacred tank"
+ },
+ {
+  "n": "Gateway of India",
+  "city": "Mumbai",
+  "country": "India",
+  "cc": "IN",
+  "region": "Asia",
+  "lat": 18.922,
+  "lon": 72.8347,
+  "why": "Basalt arch on the harbour"
+ },
+ {
+  "n": "Kerala backwaters",
+  "city": "Alappuzha",
+  "country": "India",
+  "cc": "IN",
+  "region": "Asia",
+  "lat": 9.4981,
+  "lon": 76.3388,
+  "why": "Palm-lined canals, houseboats"
+ },
+ {
+  "n": "Chiang Mai old city",
+  "city": "Chiang Mai",
+  "country": "Thailand",
+  "cc": "TH",
+  "region": "Asia",
+  "lat": 18.7883,
+  "lon": 98.9853,
+  "why": "Moat, brick wall, lanna temples"
+ },
+ {
+  "n": "Hanoi Old Quarter",
+  "city": "Hanoi",
+  "country": "Vietnam",
+  "cc": "VN",
+  "region": "Asia",
+  "lat": 21.0333,
+  "lon": 105.85,
+  "why": "Tube houses, tangled wires"
+ },
+ {
+  "n": "Batu Caves",
+  "city": "Selangor",
+  "country": "Malaysia",
+  "cc": "MY",
+  "region": "Asia",
+  "lat": 3.2379,
+  "lon": 101.684,
+  "why": "Rainbow stairs to limestone cave"
+ },
+ {
+  "n": "George Town",
+  "city": "Penang",
+  "country": "Malaysia",
+  "cc": "MY",
+  "region": "Asia",
+  "lat": 5.4141,
+  "lon": 100.3288,
+  "why": "Shophouses, street murals"
+ },
+ {
+  "n": "Gardens by the Bay",
+  "city": "Singapore",
+  "country": "Singapore",
+  "cc": "SG",
+  "region": "Asia",
+  "lat": 1.2816,
+  "lon": 103.8636,
+  "why": "Supertree grove"
+ },
+ {
+  "n": "Intramuros",
+  "city": "Manila",
+  "country": "Philippines",
+  "cc": "PH",
+  "region": "Asia",
+  "lat": 14.5906,
+  "lon": 120.975,
+  "why": "Spanish walls, Fort Santiago"
+ },
+ {
+  "n": "Chocolate Hills",
+  "city": "Bohol",
+  "country": "Philippines",
+  "cc": "PH",
+  "region": "Asia",
+  "lat": 9.83,
+  "lon": 124.17,
+  "why": "Hundreds of conical green mounds"
+ },
+ {
+  "n": "Banaue rice terraces",
+  "city": "Ifugao",
+  "country": "Philippines",
+  "cc": "PH",
+  "region": "Asia",
+  "lat": 16.9333,
+  "lon": 121.1333,
+  "why": "Stepped terraces up whole mountains"
+ },
+ {
+  "n": "Taipei 101",
+  "city": "Taipei",
+  "country": "Taiwan",
+  "cc": "TW",
+  "region": "Asia",
+  "lat": 25.033,
+  "lon": 121.5654,
+  "why": "Segmented pagoda skyscraper"
+ },
+ {
+  "n": "Taroko Gorge",
+  "city": "Hualien",
+  "country": "Taiwan",
+  "cc": "TW",
+  "region": "Asia",
+  "lat": 24.1583,
+  "lon": 121.4906,
+  "why": "Marble gorge, tunnel road"
+ },
+ {
+  "n": "Ella Nine Arch Bridge",
+  "city": "Uva",
+  "country": "Sri Lanka",
+  "cc": "LK",
+  "region": "Asia",
+  "lat": 6.876,
+  "lon": 81.06,
+  "why": "Stone viaduct in tea hills"
+ },
+ {
+  "n": "Kandy lake & temple",
+  "city": "Kandy",
+  "country": "Sri Lanka",
+  "cc": "LK",
+  "region": "Asia",
+  "lat": 7.2936,
+  "lon": 80.6413,
+  "why": "Lakeside shrine in green hills"
+ },
+ {
+  "n": "Kathmandu Durbar Square",
+  "city": "Kathmandu",
+  "country": "Nepal",
+  "cc": "NP",
+  "region": "Asia",
+  "lat": 27.7043,
+  "lon": 85.307,
+  "why": "Tiered pagoda temples, brick"
+ },
+ {
+  "n": "Pokhara & Phewa Lake",
+  "city": "Gandaki",
+  "country": "Nepal",
+  "cc": "NP",
+  "region": "Asia",
+  "lat": 28.2096,
+  "lon": 83.9856,
+  "why": "Annapurna reflected in lake"
+ },
+ {
+  "n": "Punakha Dzong",
+  "city": "Punakha",
+  "country": "Bhutan",
+  "cc": "BT",
+  "region": "Asia",
+  "lat": 27.585,
+  "lon": 89.8639,
+  "why": "White fortress at river confluence"
+ },
+ {
+  "n": "Ulaanbaatar",
+  "city": "Ulaanbaatar",
+  "country": "Mongolia",
+  "cc": "MN",
+  "region": "Asia",
+  "lat": 47.9186,
+  "lon": 106.9176,
+  "why": "Soviet blocks, gers, steppe edge"
+ },
+ {
+  "n": "Charyn Canyon",
+  "city": "Almaty Region",
+  "country": "Kazakhstan",
+  "cc": "KZ",
+  "region": "Asia",
+  "lat": 43.3547,
+  "lon": 79.08,
+  "why": "Red rock canyon on steppe"
+ },
+ {
+  "n": "Bukhara Poi Kalyan",
+  "city": "Bukhara",
+  "country": "Uzbekistan",
+  "cc": "UZ",
+  "region": "Asia",
+  "lat": 39.7758,
+  "lon": 64.4144,
+  "why": "Minaret, blue-domed mosque"
+ },
+ {
+  "n": "Issyk-Kul shore",
+  "city": "Issyk-Kul",
+  "country": "Kyrgyzstan",
+  "cc": "KG",
+  "region": "Asia",
+  "lat": 42.45,
+  "lon": 77,
+  "why": "Alpine lake under snow ranges"
+ },
+ {
+  "n": "Luang Prabang",
+  "city": "Luang Prabang",
+  "country": "Laos",
+  "cc": "LA",
+  "region": "Asia",
+  "lat": 19.8867,
+  "lon": 102.135,
+  "why": "Gilded wats, Mekong, French shutters"
+ },
+ {
+  "n": "Badshahi Mosque",
+  "city": "Lahore",
+  "country": "Pakistan",
+  "cc": "PK",
+  "region": "Asia",
+  "lat": 31.588,
+  "lon": 74.3106,
+  "why": "Red sandstone Mughal mosque"
+ },
+ {
+  "n": "Hunza Valley",
+  "city": "Gilgit-Baltistan",
+  "country": "Pakistan",
+  "cc": "PK",
+  "region": "Asia",
+  "lat": 36.3167,
+  "lon": 74.65,
+  "why": "Terraces under Karakoram peaks"
+ },
+ {
+  "n": "Dhaka Ahsan Manzil",
+  "city": "Dhaka",
+  "country": "Bangladesh",
+  "cc": "BD",
+  "region": "Asia",
+  "lat": 23.7086,
+  "lon": 90.4064,
+  "why": "Pink palace on the Buriganga"
+ },
+ {
+  "n": "Yosemite Valley",
+  "city": "California",
+  "country": "United States",
+  "cc": "US",
+  "region": "North America",
+  "lat": 37.7456,
+  "lon": -119.5936,
+  "why": "El Capitan and Half Dome"
+ },
+ {
+  "n": "Old Faithful",
+  "city": "Wyoming",
+  "country": "United States",
+  "cc": "US",
+  "region": "North America",
+  "lat": 44.4605,
+  "lon": -110.8281,
+  "why": "Geyser, boardwalks, lodgepole pine"
+ },
+ {
+  "n": "National Mall",
+  "city": "Washington DC",
+  "country": "United States",
+  "cc": "US",
+  "region": "North America",
+  "lat": 38.8895,
+  "lon": -77.0353,
+  "why": "Monument axis, Capitol dome"
+ },
+ {
+  "n": "South Beach",
+  "city": "Miami",
+  "country": "United States",
+  "cc": "US",
+  "region": "North America",
+  "lat": 25.7825,
+  "lon": -80.13,
+  "why": "Art deco pastel hotels, palms"
+ },
+ {
+  "n": "Space Needle",
+  "city": "Seattle",
+  "country": "United States",
+  "cc": "US",
+  "region": "North America",
+  "lat": 47.6205,
+  "lon": -122.3493,
+  "why": "Saucer tower, Cascades"
+ },
+ {
+  "n": "Mount Rushmore",
+  "city": "South Dakota",
+  "country": "United States",
+  "cc": "US",
+  "region": "North America",
+  "lat": 43.8791,
+  "lon": -103.4591,
+  "why": "Four presidents in granite"
+ },
+ {
+  "n": "Bryce Canyon",
+  "city": "Utah",
+  "country": "United States",
+  "cc": "US",
+  "region": "North America",
+  "lat": 37.593,
+  "lon": -112.1871,
+  "why": "Orange hoodoo amphitheatre"
+ },
+ {
+  "n": "Zion Canyon",
+  "city": "Utah",
+  "country": "United States",
+  "cc": "US",
+  "region": "North America",
+  "lat": 37.269,
+  "lon": -112.9481,
+  "why": "Sheer red navajo sandstone walls"
+ },
+ {
+  "n": "Waikiki & Diamond Head",
+  "city": "Honolulu",
+  "country": "United States",
+  "cc": "US",
+  "region": "North America",
+  "lat": 21.2793,
+  "lon": -157.8292,
+  "why": "Crater headland over resort beach"
+ },
+ {
+  "n": "Santa Fe Plaza",
+  "city": "New Mexico",
+  "country": "United States",
+  "cc": "US",
+  "region": "North America",
+  "lat": 35.687,
+  "lon": -105.9378,
+  "why": "Adobe portals, turquoise trim"
+ },
+ {
+  "n": "Stanley Park seawall",
+  "city": "Vancouver",
+  "country": "Canada",
+  "cc": "CA",
+  "region": "North America",
+  "lat": 49.3,
+  "lon": -123.14,
+  "why": "Cedar forest, downtown, mountains"
+ },
+ {
+  "n": "Château Frontenac",
+  "city": "Quebec City",
+  "country": "Canada",
+  "cc": "CA",
+  "region": "North America",
+  "lat": 46.8118,
+  "lon": -71.205,
+  "why": "Copper-roofed castle hotel"
+ },
+ {
+  "n": "Peyto Lake",
+  "city": "Alberta",
+  "country": "Canada",
+  "cc": "CA",
+  "region": "North America",
+  "lat": 51.7167,
+  "lon": -116.5167,
+  "why": "Wolf-head glacial lake"
+ },
+ {
+  "n": "Peggy's Cove",
+  "city": "Nova Scotia",
+  "country": "Canada",
+  "cc": "CA",
+  "region": "North America",
+  "lat": 44.4919,
+  "lon": -63.9161,
+  "why": "Lighthouse on bare granite"
+ },
+ {
+  "n": "Zócalo",
+  "city": "Mexico City",
+  "country": "Mexico",
+  "cc": "MX",
+  "region": "North America",
+  "lat": 19.4326,
+  "lon": -99.1332,
+  "why": "Vast plaza, cathedral, flag"
+ },
+ {
+  "n": "Tulum",
+  "city": "Quintana Roo",
+  "country": "Mexico",
+  "cc": "MX",
+  "region": "North America",
+  "lat": 20.2145,
+  "lon": -87.429,
+  "why": "Maya ruins on a Caribbean cliff"
+ },
+ {
+  "n": "Guanajuato",
+  "city": "Guanajuato",
+  "country": "Mexico",
+  "cc": "MX",
+  "region": "North America",
+  "lat": 21.019,
+  "lon": -101.2574,
+  "why": "Coloured houses in a ravine"
+ },
+ {
+  "n": "San Miguel de Allende",
+  "city": "Guanajuato",
+  "country": "Mexico",
+  "cc": "MX",
+  "region": "North America",
+  "lat": 20.9144,
+  "lon": -100.7436,
+  "why": "Pink neo-gothic parroquia"
+ },
+ {
+  "n": "Old San Juan",
+  "city": "San Juan",
+  "country": "Puerto Rico",
+  "cc": "PR",
+  "region": "North America",
+  "lat": 18.4663,
+  "lon": -66.1057,
+  "why": "Blue cobbles, El Morro"
+ },
+ {
+  "n": "Zona Colonial",
+  "city": "Santo Domingo",
+  "country": "Dominican Republic",
+  "cc": "DO",
+  "region": "North America",
+  "lat": 18.473,
+  "lon": -69.884,
+  "why": "Oldest European city in Americas"
+ },
+ {
+  "n": "Arenal Volcano",
+  "city": "Alajuela",
+  "country": "Costa Rica",
+  "cc": "CR",
+  "region": "North America",
+  "lat": 10.463,
+  "lon": -84.703,
+  "why": "Symmetrical cone over rainforest"
+ },
+ {
+  "n": "Monteverde cloud forest",
+  "city": "Puntarenas",
+  "country": "Costa Rica",
+  "cc": "CR",
+  "region": "North America",
+  "lat": 10.3,
+  "lon": -84.8167,
+  "why": "Mossy canopy, suspension bridges"
+ },
+ {
+  "n": "Granada",
+  "city": "Granada",
+  "country": "Nicaragua",
+  "cc": "NI",
+  "region": "North America",
+  "lat": 11.9344,
+  "lon": -85.956,
+  "why": "Yellow cathedral, Lake Nicaragua"
+ },
+ {
+  "n": "Copán ruins",
+  "city": "Copán",
+  "country": "Honduras",
+  "cc": "HN",
+  "region": "North America",
+  "lat": 14.84,
+  "lon": -89.1414,
+  "why": "Maya stelae, hieroglyphic stairway"
+ },
+ {
+  "n": "Belize barrier reef cayes",
+  "city": "Belize District",
+  "country": "Belize",
+  "cc": "BZ",
+  "region": "North America",
+  "lat": 17.5,
+  "lon": -88,
+  "why": "Turquoise flats, wooden piers"
+ },
+ {
+  "n": "Panama City skyline",
+  "city": "Panamá",
+  "country": "Panama",
+  "cc": "PA",
+  "region": "North America",
+  "lat": 8.9824,
+  "lon": -79.5199,
+  "why": "Glass towers beside Casco Viejo"
+ },
+ {
+  "n": "Jökulsárlón",
+  "city": "Austurland",
+  "country": "Iceland",
+  "cc": "IS",
+  "region": "Europe",
+  "lat": 64.0784,
+  "lon": -16.2306,
+  "why": "Icebergs in a glacial lagoon"
+ },
+ {
+  "n": "Glencoe",
+  "city": "Highland",
+  "country": "United Kingdom",
+  "cc": "GB",
+  "region": "Europe",
+  "lat": 56.6667,
+  "lon": -5.1,
+  "why": "Steep glen, heather, buttresses"
+ },
+ {
+  "n": "Lake Bled",
+  "city": "Upper Carniola",
+  "country": "Slovenia",
+  "cc": "SI",
+  "region": "Europe",
+  "lat": 46.3625,
+  "lon": 14.0936,
+  "why": "Island church, cliff castle"
+ },
+ {
+  "n": "Cinque Terre",
+  "city": "Liguria",
+  "country": "Italy",
+  "cc": "IT",
+  "region": "Europe",
+  "lat": 44.1069,
+  "lon": 9.7278,
+  "why": "Coloured villages on sea cliffs"
+ },
+ {
+  "n": "Meteora",
+  "city": "Thessaly",
+  "country": "Greece",
+  "cc": "GR",
+  "region": "Europe",
+  "lat": 39.7217,
+  "lon": 21.6306,
+  "why": "Monasteries on sandstone pillars"
+ },
+ {
+  "n": "Ribeira",
+  "city": "Porto",
+  "country": "Portugal",
+  "cc": "PT",
+  "region": "Europe",
+  "lat": 41.1408,
+  "lon": -8.611,
+  "why": "Tiled facades, Douro, iron bridge"
+ },
+ {
+  "n": "Plaza de España",
+  "city": "Seville",
+  "country": "Spain",
+  "cc": "ES",
+  "region": "Europe",
+  "lat": 37.3772,
+  "lon": -5.9869,
+  "why": "Tiled semicircular plaza, canal"
+ },
+ {
+  "n": "Chapel Bridge",
+  "city": "Lucerne",
+  "country": "Switzerland",
+  "cc": "CH",
+  "region": "Europe",
+  "lat": 47.0517,
+  "lon": 8.3078,
+  "why": "Covered wooden bridge, water tower"
+ },
+ {
+  "n": "Marienplatz",
+  "city": "Munich",
+  "country": "Germany",
+  "cc": "DE",
+  "region": "Europe",
+  "lat": 48.1374,
+  "lon": 11.5755,
+  "why": "Neo-gothic town hall, glockenspiel"
+ },
+ {
+  "n": "Schönbrunn",
+  "city": "Vienna",
+  "country": "Austria",
+  "cc": "AT",
+  "region": "Europe",
+  "lat": 48.185,
+  "lon": 16.3122,
+  "why": "Yellow palace, formal parterre"
+ },
+ {
+  "n": "Old Town",
+  "city": "Tallinn",
+  "country": "Estonia",
+  "cc": "EE",
+  "region": "Europe",
+  "lat": 59.437,
+  "lon": 24.7454,
+  "why": "Medieval walls, spires"
+ },
+ {
+  "n": "Vilnius Old Town",
+  "city": "Vilnius",
+  "country": "Lithuania",
+  "cc": "LT",
+  "region": "Europe",
+  "lat": 54.68,
+  "lon": 25.287,
+  "why": "Baroque skyline, courtyards"
+ },
+ {
+  "n": "Bryggen",
+  "city": "Bergen",
+  "country": "Norway",
+  "cc": "NO",
+  "region": "Europe",
+  "lat": 60.3975,
+  "lon": 5.3242,
+  "why": "Wooden hanseatic wharf gables"
+ },
+ {
+  "n": "Long Market",
+  "city": "Gdańsk",
+  "country": "Poland",
+  "cc": "PL",
+  "region": "Europe",
+  "lat": 54.3489,
+  "lon": 18.6528,
+  "why": "Narrow ornate merchant houses"
+ },
+ {
+  "n": "Sarajevo Baščaršija",
+  "city": "Sarajevo",
+  "country": "Bosnia and Herzegovina",
+  "cc": "BA",
+  "region": "Europe",
+  "lat": 43.8595,
+  "lon": 18.431,
+  "why": "Ottoman bazaar, minarets, hills"
+ },
+ {
+  "n": "Kyiv Pechersk Lavra",
+  "city": "Kyiv",
+  "country": "Ukraine",
+  "cc": "UA",
+  "region": "Europe",
+  "lat": 50.4344,
+  "lon": 30.5578,
+  "why": "Gold domes above the Dnieper"
+ },
+ {
+  "n": "Monte Carlo",
+  "city": "Monaco",
+  "country": "Monaco",
+  "cc": "MC",
+  "region": "Europe",
+  "lat": 43.7396,
+  "lon": 7.4276,
+  "why": "Casino square, harbour, cliffs"
+ },
+ {
+  "n": "Valletta",
+  "city": "Valletta",
+  "country": "Malta",
+  "cc": "MT",
+  "region": "Europe",
+  "lat": 35.8989,
+  "lon": 14.5146,
+  "why": "Honey limestone bastions, balconies"
+ },
+ {
+  "n": "Rila Monastery",
+  "city": "Kyustendil",
+  "country": "Bulgaria",
+  "cc": "BG",
+  "region": "Europe",
+  "lat": 42.1333,
+  "lon": 23.34,
+  "why": "Striped arcades in forested peaks"
+ },
+ {
+  "n": "Ljubljana Triple Bridge",
+  "city": "Ljubljana",
+  "country": "Slovenia",
+  "cc": "SI",
+  "region": "Europe",
+  "lat": 46.0514,
+  "lon": 14.5061,
+  "why": "Plečnik bridges, castle hill"
+ }
+]

@@ -1,8 +1,13 @@
-import { useRef, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import type { Round, MultiplayerStanding } from '../types'
 import type { RoundCount } from '../lib/game'
-import { selectRounds } from '../lib/game'
 import { scoreGuess } from '../lib/geography'
+import {
+  loadSeen,
+  saveSeen,
+  seenAfterSelection,
+  selectUnseenRounds,
+} from '../lib/seen-rounds'
 import {
   applyMultiplayerAction,
   createMultiplayerState,
@@ -124,6 +129,22 @@ export function useUsionMultiplayer({
     return next
   }
 
+  const recordedMatchRef = useRef<string | null>(null)
+  useEffect(() => {
+    if (!state.matchId || !state.myId || !state.roundIds.length) return
+    if (recordedMatchRef.current === state.matchId) return
+    recordedMatchRef.current = state.matchId
+    const dealt = state.roundIds
+      .map((id) => roundsByIdRef.current.get(id))
+      .filter((round): round is Round => Boolean(round))
+    const previous = loadSeen(state.myId)
+    const exhausted = dealt.some((round) => previous.includes(round.id))
+    saveSeen(
+      state.myId,
+      seenAfterSelection(previous, { rounds: dealt, cycled: exhausted }),
+    )
+  }, [state.matchId, state.myId, state.roundIds])
+
   useUsionRoomEvents(
     embedded,
     createMultiplayerRoomHandlers({
@@ -143,7 +164,12 @@ export function useUsionMultiplayer({
     ) {
       return
     }
-    const roundIds = selectRounds(catalog, roundCount).map(({ id }) => id)
+    const roomSeen = current.presentIds.map(
+      (id) => current.seenByPlayer[id] ?? [],
+    )
+    const roundIds = selectUnseenRounds(catalog, roundCount, roomSeen).rounds.map(
+      ({ id }) => id,
+    )
     revealPendingRef.current = null
     reportedMatchRef.current = null
     try {
@@ -154,7 +180,6 @@ export function useUsionMultiplayer({
         playerIds: orderedPlayers(current.presentIds, current.hostId),
       })
     } catch {
-      // The setup remains usable so the host can retry after reconnecting.
     }
   }
 

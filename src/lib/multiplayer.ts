@@ -36,6 +36,7 @@ export type MultiplayerState = {
   presentIds: string[]
   activePlayerIds: string[]
   players: Record<string, MultiplayerPlayer>
+  seenByPlayer: Record<string, string[]>
   matchId: string | null
   roundCount: RoundCount
   roundIds: string[]
@@ -68,6 +69,7 @@ export function createMultiplayerState(): MultiplayerState {
     presentIds: [],
     activePlayerIds: [],
     players: {},
+    seenByPlayer: {},
     matchId: null,
     roundCount: 5,
     roundIds: [],
